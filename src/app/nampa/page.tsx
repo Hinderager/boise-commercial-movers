@@ -1,50 +1,49 @@
 import { Metadata } from 'next'
 import { HeroSection } from '@/components/HeroSection'
-import { SchedulingForm } from '@/components/SchedulingForm'
-import { WhyChooseUs } from '@/components/WhyChooseUs'
-import { ServiceProcess } from '@/components/ServiceProcess'
+import { ServicesGrid } from '@/components/ServicesGrid'
 import { FAQ } from '@/components/FAQ'
 import { StructuredData } from '@/components/StructuredData'
 import { CheckCircle, MapPin, Phone } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Hoarding Cleanup Nampa Idaho | Hoarder Cleanout Services Canyon County',
-  description: 'Professional hoarding cleanup services in Nampa, Idaho and Canyon County. Compassionate hoarder cleanout, estate cleanout, and clutter removal. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  title: 'HVAC Services Nampa Idaho | AC Repair & Heating | Boise HVAC Pros',
+  description: 'Professional HVAC services in Nampa, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service available. Free estimates. Call (208) 505-9352.',
   keywords: [
-    'hoarding cleanup Nampa',
-    'hoarding cleanup Nampa Idaho',
-    'hoarder cleanout Nampa',
-    'hoarding cleanup services Nampa ID',
-    'hoarding help Nampa',
-    'estate cleanout Nampa Idaho',
-    'Canyon County hoarding cleanup',
-    'clutter removal Nampa',
-    'Nampa hoarder cleanup',
+    'HVAC Nampa',
+    'AC repair Nampa Idaho',
+    'furnace repair Nampa',
+    'heating services Nampa',
+    'air conditioning Nampa ID',
+    'HVAC contractor Nampa',
+    'furnace installation Nampa Idaho',
+    'AC installation Nampa',
+    'emergency HVAC Nampa',
+    'Nampa heating and cooling',
   ],
   openGraph: {
-    title: 'Hoarding Cleanup Nampa Idaho | Canyon County Hoarder Cleanout',
-    description: 'Professional, compassionate hoarding cleanup services in Nampa, Idaho. Licensed, insured, and discreet. Same-day service available.',
-    url: 'https://boise-hoarding-cleanup.com/nampa',
+    title: 'HVAC Services Nampa Idaho | AC Repair & Heating',
+    description: 'Professional heating and air conditioning services in Nampa, Idaho. Licensed, insured, and available 24/7 for emergencies.',
+    url: 'https://hvac-boise.com/nampa',
   },
   alternates: {
-    canonical: 'https://boise-hoarding-cleanup.com/nampa',
+    canonical: 'https://hvac-boise.com/nampa',
   },
 }
 
-const nampaAreas = [
+const nampaNeighborhoods = [
   'Downtown Nampa',
   'North Nampa',
   'South Nampa',
+  'East Nampa',
   'West Nampa',
-  'Ridgecrest',
+  'Southridge',
   'Birch Lane',
-  'Garrity Boulevard',
-  'Northside',
-  'Lakeview',
-  'Karcher Road Area',
-  'Star Road Area',
-  'Canyon Springs',
+  'Ridgecrest',
+  'Greenhurst',
+  'Centennial',
+  'Karcher',
+  'Garrity',
 ]
 
 export default function NampaPage() {
@@ -54,125 +53,110 @@ export default function NampaPage() {
 
       <HeroSection
         city="Nampa"
-        headline="Hoarding Cleanup in Nampa, Idaho"
-        subheadline="We help Nampa and Canyon County families with hoarding situations. No judgment, just help."
+        headline="HVAC Services in Nampa, Idaho"
+        subheadline="Reliable heating and cooling for Nampa families."
       />
 
-      <SchedulingForm city="Nampa" />
-
-      {/* Nampa-Specific Content Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Hoarding Cleanup in Nampa
+            <h2 className="text-3xl md:text-4xl font-bold text-dark-blue mb-6">
+              Nampa HVAC Services
             </h2>
 
             <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Nampa&apos;s a big city with all kinds of homes—older places downtown, newer builds out by the mall, rural properties on the edges. We&apos;ve done hoarding cleanups in all of them.
+                Nampa homeowners know the drill. Hot summers, cold winters, and HVAC systems that work overtime. When your heating or cooling goes out, you need someone who can get there fast and fix it right.
               </p>
 
               <p>
-                Hoarding affects people from all backgrounds. It&apos;s not about being messy or lazy. It&apos;s usually tied to something deeper, and we get that. Our job is to help, not to judge.
+                We've worked on systems all over Nampa—from the older homes near downtown to the newer builds out by the Karcher interchange. Different homes, different systems, but the same commitment to getting your comfort back.
               </p>
 
               <p>
-                We work with the person living there when we can. Sometimes it&apos;s a family member calling because mom or dad needs help. Sometimes it&apos;s a landlord dealing with a rental property. We handle all of it.
+                Whether your AC stopped blowing cold air or your furnace won't kick on, we can help. Most repairs can be done the same day, and we always give you the price before we start.
               </p>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                What We Do
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                What We Offer in Nampa
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Full cleanouts:</strong> We clear the whole place, sort through it, and haul everything away</span>
+                  <span><strong>AC repair and service:</strong> All brands, all problems. We'll get your cool air back</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Rental cleanouts:</strong> For landlords dealing with hoarding tenants</span>
+                  <span><strong>Furnace repair:</strong> Gas, electric, heat pumps—we work on them all</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Rural properties:</strong> We work outside city limits too—farms, acreages, whatever</span>
+                  <span><strong>System replacement:</strong> When repair doesn't make sense, we'll help you find the right new system</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Downsizing help:</strong> When an older parent needs to move somewhere smaller</span>
+                  <span><strong>Preventive maintenance:</strong> Tune-ups that prevent expensive breakdowns</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Donations:</strong> We donate usable stuff locally. Less goes to the landfill that way</span>
+                  <span><strong>24/7 emergency repairs:</strong> Because furnaces don't always break during business hours</span>
                 </li>
               </ul>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Areas We Cover in Nampa
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                Nampa Areas We Cover
               </h3>
 
               <p>
-                We work throughout Nampa and Canyon County:
+                We serve all Nampa neighborhoods:
               </p>
             </div>
 
-            {/* Areas Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-6">
-              {nampaAreas.map((area) => (
+              {nampaNeighborhoods.map((neighborhood) => (
                 <div
-                  key={area}
-                  className="flex items-center gap-2 bg-fog px-3 py-2 rounded-lg"
+                  key={neighborhood}
+                  className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-lg"
                 >
-                  <MapPin className="w-4 h-4 text-light-blue flex-shrink-0" />
-                  <span className="text-sm text-gunmetal">{area}</span>
+                  <MapPin className="w-4 h-4 text-dark-blue flex-shrink-0" />
+                  <span className="text-sm text-gray-700">{neighborhood}</span>
                 </div>
               ))}
             </div>
 
-            {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Help in Nampa?
+                Need HVAC Service in Nampa?
               </h3>
               <p className="text-gray-300 mb-6">
-                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
+                Call us today. Free estimates, fair prices.
               </p>
               <a
-                href="tel:2083611982"
-                className="inline-flex items-center gap-2 bg-brand-yellow text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
+                href="tel:2085059352"
+                className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (208) 361-1982
+                (208) 505-9352
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <WhyChooseUs />
-      <ServiceProcess />
+      <ServicesGrid />
       <FAQ />
 
-      {/* Related City Links */}
-      <section className="py-12 bg-fog">
+      <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gunmetal mb-6 text-center">
+          <h2 className="text-2xl font-bold text-dark-blue mb-6 text-center">
             Also Serving Nearby Cities
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise
-            </Link>
-            <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian
-            </Link>
-            <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell
-            </Link>
-            <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle
-            </Link>
+            <Link href="/boise" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Boise</Link>
+            <Link href="/meridian" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Meridian</Link>
+            <Link href="/caldwell" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Caldwell</Link>
+            <Link href="/eagle" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Eagle</Link>
           </div>
         </div>
       </section>

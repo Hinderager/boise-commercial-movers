@@ -5,13 +5,13 @@ import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export const faqs = [
-  { question: 'What items do you take?', answer: 'We take almost everything! Furniture, appliances, electronics, yard waste, construction debris, mattresses, hot tubs, and more. The only items we can\'t take are hazardous materials like paint, chemicals, or asbestos.' },
-  { question: 'How does pricing work?', answer: 'We provide upfront, transparent pricing based on how much space your items take in our truck. You\'ll know the exact cost before we start loading—no hidden fees or surprises.' },
-  { question: 'Do you offer same-day service?', answer: 'Yes! We offer same-day and next-day junk removal throughout the Treasure Valley. Call us by noon for same-day pickup in most areas.' },
-  { question: 'What happens to the items you remove?', answer: 'We\'re committed to eco-friendly disposal. Usable items are donated to local charities. Recyclables are properly recycled. Only true waste goes to the landfill—typically less than 30% of what we collect.' },
-  { question: 'Do I need to be home during pickup?', answer: 'Not necessarily. As long as the items are accessible and payment is arranged, we can complete the job while you\'re away. Many customers leave items in the driveway or garage.' },
-  { question: 'How much junk can you take?', answer: 'We can handle any size job—from a single item to full property cleanouts. Our trucks hold about 12 cubic yards, equivalent to 6-8 pickup truck loads. For larger jobs, we\'ll make multiple trips.' },
-  { question: 'Do you provide free estimates?', answer: 'Absolutely! We provide free, no-obligation estimates. Just call us or schedule online, and we\'ll give you an exact quote before any work begins.' },
+  { question: 'How much does HVAC repair cost?', answer: 'Most repairs run between $150-500 depending on the issue. Diagnostic fees typically start around $89 and get applied to the repair cost if you move forward. We always provide upfront pricing before any work begins.' },
+  { question: 'How often should I service my HVAC system?', answer: 'We recommend a tune-up twice a year—once in spring for your AC and once in fall for your furnace. Regular maintenance catches small problems before they become expensive repairs and keeps your system running efficiently.' },
+  { question: 'Do you offer 24/7 emergency service?', answer: 'Yes. No heat in the middle of winter or AC failure during a heat wave? We get it—some things can\'t wait. Our emergency technicians are available around the clock, including weekends and holidays.' },
+  { question: 'How long does a new AC or furnace installation take?', answer: 'Most standard installations take one day. If we\'re replacing both your furnace and AC or doing ductwork modifications, it might take two days. We\'ll give you a timeline before we start.' },
+  { question: 'What brands do you work on?', answer: 'We service all major brands—Carrier, Trane, Lennox, Rheem, Goodman, Bryant, American Standard, and more. Our techs are trained to diagnose and repair any make or model.' },
+  { question: 'How do I know if I need a repair or replacement?', answer: 'Generally, if your system is over 15 years old and needs a repair costing more than half a new unit, replacement makes more sense. We\'ll always give you honest advice and both options so you can decide what\'s right for your situation.' },
+  { question: 'Do you offer financing?', answer: 'Yes, we offer flexible financing options on new equipment installations. Get a new system now and pay over time with approved credit. Ask us about current promotions.' },
 ]
 
 export function FAQ() {
@@ -41,7 +41,7 @@ export function FAQ() {
 
         <div className="flex flex-row gap-4 justify-center mt-12">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 361-1982</span></a>
+            <a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a>
           </Button>
         </div>
       </div>

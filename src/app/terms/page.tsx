@@ -2,39 +2,40 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Hoarding Cleanup Pros',
-  description: 'Terms of service for Hoarding Cleanup Pros hoarding cleanup services in Boise and the Treasure Valley.',
+  title: 'Terms of Service | Boise HVAC Pros',
+  description: 'Terms of service for Boise HVAC Pros heating and cooling services in Boise and the Treasure Valley.',
   alternates: {
-    canonical: 'https://boise-hoarding-cleanup.com/terms',
+    canonical: 'https://hvac-boise.com/terms',
   },
 }
 
 export default function TermsPage() {
   return (
-    <main className="py-16">
+    <main className="pt-20 py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-gunmetal mb-4">Terms of Service</h1>
-          <p className="text-gray-500 mb-8">Last updated: December 12, 2024</p>
+          <p className="text-gray-500 mb-8">Last updated: December 15, 2024</p>
 
           <div className="prose prose-lg max-w-none text-gray-600">
             <p>
-              Welcome to Hoarding Cleanup Pros. By accessing our website or using our services, you agree to be bound by these Terms of Service. Please read them carefully.
+              Welcome to Boise HVAC Pros. By accessing our website or using our services, you agree to be bound by these Terms of Service. Please read them carefully.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">1. Services</h2>
             <p>
-              Hoarding Cleanup Pros provides professional hoarding cleanup, estate cleanout, and related services in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas in Idaho. All services are subject to availability and our ability to safely perform the work.
+              Boise HVAC Pros provides professional heating, ventilation, and air conditioning services including repair, installation, and maintenance in Boise, Meridian, Nampa, Caldwell, Eagle, and surrounding areas in Idaho. All services are subject to availability and our ability to safely perform the work.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">2. Service Agreement</h2>
             <p>
-              By requesting services from Hoarding Cleanup Pros, you represent that you are the property owner or have authorization from the property owner to request and authorize cleanup services. You agree to provide accurate information about the property and scope of work needed.
+              By requesting services from Boise HVAC Pros, you represent that you are the property owner or have authorization from the property owner to request and authorize HVAC services. You agree to provide accurate information about the property and scope of work needed.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">3. Estimates and Pricing</h2>
             <ul>
-              <li>We provide free estimates based on an on-site or virtual assessment of your property</li>
+              <li>We provide free estimates based on an on-site assessment of your HVAC system</li>
+              <li>Diagnostic fees may apply for repair services and are disclosed before the visit</li>
               <li>Estimates are valid for 30 days unless otherwise specified</li>
               <li>Final pricing may vary if the actual scope of work differs significantly from the initial assessment</li>
               <li>We will communicate any pricing changes and obtain your approval before proceeding with additional work</li>
@@ -44,8 +45,9 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">4. Payment Terms</h2>
             <ul>
               <li>Payment is due upon completion of services unless otherwise agreed in writing</li>
-              <li>For larger projects, we may require a deposit or progress payments</li>
+              <li>For installations and larger projects, we may require a deposit or progress payments</li>
               <li>We accept cash, check, and major credit cards (Visa, Mastercard, American Express, Discover)</li>
+              <li>Financing options are available for qualified customers on larger purchases</li>
               <li>Returned checks are subject to a $35 fee</li>
               <li>Past due accounts may be subject to collection fees and interest</li>
             </ul>
@@ -53,6 +55,7 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">5. Scheduling and Cancellation</h2>
             <ul>
               <li>We will make reasonable efforts to accommodate your preferred scheduling</li>
+              <li>Emergency services are available 24/7 and may be subject to after-hours rates</li>
               <li>Please provide at least 24 hours notice if you need to reschedule or cancel your appointment</li>
               <li>Same-day cancellations may be subject to a cancellation fee</li>
               <li>We reserve the right to reschedule due to weather, safety concerns, or other unforeseen circumstances</li>
@@ -61,33 +64,34 @@ export default function TermsPage() {
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">6. Property Access and Safety</h2>
             <p>You agree to:</p>
             <ul>
-              <li>Provide safe access to the property for our team and equipment</li>
-              <li>Inform us of any known hazards, including but not limited to biohazards, structural damage, pest infestations, or hazardous materials</li>
+              <li>Provide safe access to the property and HVAC equipment for our team</li>
+              <li>Inform us of any known hazards or concerns about the property</li>
               <li>Secure pets during service appointments</li>
-              <li>Ensure utilities (electricity, water) are available if needed for cleaning</li>
+              <li>Ensure clear access to indoor and outdoor HVAC equipment</li>
+              <li>Have electrical service connected and functioning at the property</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">7. Item Disposal and Donations</h2>
+            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">7. Warranties</h2>
             <ul>
-              <li>By authorizing cleanup, you grant us permission to remove and dispose of items as agreed upon</li>
-              <li>We strongly recommend identifying and removing any valuables, important documents, jewelry, cash, or irreplaceable items before cleanup begins</li>
-              <li>We will make reasonable efforts to set aside items that appear valuable for your review</li>
-              <li>Usable items may be donated to local charities; recyclable materials will be recycled when possible</li>
-              <li>Once items leave the property, they cannot be recovered</li>
+              <li>We stand behind our work and provide a warranty on labor and installation</li>
+              <li>Parts are covered under manufacturer warranties which vary by product</li>
+              <li>Warranty terms will be explained and provided in writing at the time of service</li>
+              <li>Warranties may be voided if equipment is tampered with by unauthorized parties</li>
+              <li>Maintenance plan membership may extend warranty coverage</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">8. Liability and Insurance</h2>
             <ul>
-              <li>Hoarding Cleanup Pros is fully licensed and insured</li>
+              <li>Boise HVAC Pros is fully licensed and insured</li>
               <li>We carry general liability insurance and workers&apos; compensation coverage</li>
-              <li>We take reasonable care to protect your property during cleanup</li>
-              <li>We are not responsible for pre-existing damage, hidden damage, or damage to items concealed within hoarded materials</li>
+              <li>We take reasonable care to protect your property during service</li>
+              <li>We are not responsible for pre-existing damage or concealed conditions</li>
               <li>Our liability is limited to the cost of services provided</li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">9. Confidentiality</h2>
+            <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">9. Permits and Code Compliance</h2>
             <p>
-              We understand the sensitive nature of hoarding situations. We maintain strict confidentiality regarding our clients, their properties, and the services we provide. Our team members are trained to be discreet and professional at all times.
+              When required by local building codes, we obtain necessary permits for HVAC installations and major repairs. Permit fees are included in our quotes unless otherwise noted. All work is performed in compliance with applicable building codes and manufacturer specifications.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">10. Communication Consent</h2>
@@ -102,7 +106,7 @@ export default function TermsPage() {
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">12. Intellectual Property</h2>
             <p>
-              All content on this website, including text, images, logos, and design, is the property of Hoarding Cleanup Pros and is protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.
+              All content on this website, including text, images, logos, and design, is the property of Boise HVAC Pros and is protected by copyright and trademark laws. You may not reproduce, distribute, or use our content without written permission.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">13. Dispute Resolution</h2>
@@ -120,13 +124,13 @@ export default function TermsPage() {
               If you have questions about these Terms of Service, please contact us:
             </p>
             <ul>
-              <li><strong>Phone:</strong> (208) 361-1982</li>
-              <li><strong>Email:</strong> info@boise-hoarding-cleanup.com</li>
+              <li><strong>Phone:</strong> (208) 505-9352</li>
+              <li><strong>Email:</strong> info@hvac-boise.com</li>
             </ul>
           </div>
 
           <div className="mt-8 pt-8 border-t border-gray-200">
-            <Link href="/" className="text-dark-blue underline hover:text-light-blue">
+            <Link href="/" className="text-dark-blue underline hover:text-[#0b7fb6]">
               &larr; Back to Home
             </Link>
           </div>

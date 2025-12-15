@@ -1,49 +1,47 @@
 import { Metadata } from 'next'
 import { HeroSection } from '@/components/HeroSection'
-import { SchedulingForm } from '@/components/SchedulingForm'
-import { WhyChooseUs } from '@/components/WhyChooseUs'
-import { ServiceProcess } from '@/components/ServiceProcess'
+import { ServicesGrid } from '@/components/ServicesGrid'
 import { FAQ } from '@/components/FAQ'
 import { StructuredData } from '@/components/StructuredData'
 import { CheckCircle, MapPin, Phone } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Hoarding Cleanup Caldwell Idaho | Hoarder Cleanout Services Canyon County',
-  description: 'Professional hoarding cleanup services in Caldwell, Idaho. Compassionate hoarder cleanout, estate cleanout, and clutter removal in Canyon County. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  title: 'HVAC Services Caldwell Idaho | AC Repair & Heating | Boise HVAC Pros',
+  description: 'Professional HVAC services in Caldwell, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service available. Free estimates. Call (208) 505-9352.',
   keywords: [
-    'hoarding cleanup Caldwell',
-    'hoarding cleanup Caldwell Idaho',
-    'hoarder cleanout Caldwell',
-    'hoarding cleanup services Caldwell ID',
-    'hoarding help Caldwell',
-    'estate cleanout Caldwell Idaho',
-    'Canyon County hoarding cleanup',
-    'clutter removal Caldwell',
-    'Caldwell hoarder cleanup',
-    'property cleanout Caldwell',
+    'HVAC Caldwell',
+    'AC repair Caldwell Idaho',
+    'furnace repair Caldwell',
+    'heating services Caldwell',
+    'air conditioning Caldwell ID',
+    'HVAC contractor Caldwell',
+    'furnace installation Caldwell Idaho',
+    'AC installation Caldwell',
+    'emergency HVAC Caldwell',
+    'Caldwell heating and cooling',
   ],
   openGraph: {
-    title: 'Hoarding Cleanup Caldwell Idaho | Canyon County Hoarder Cleanout',
-    description: 'Professional, compassionate hoarding cleanup services in Caldwell, Idaho. Licensed, insured, and discreet. Same-day service available.',
-    url: 'https://boise-hoarding-cleanup.com/caldwell',
+    title: 'HVAC Services Caldwell Idaho | AC Repair & Heating',
+    description: 'Professional heating and air conditioning services in Caldwell, Idaho. Licensed, insured, and available 24/7 for emergencies.',
+    url: 'https://hvac-boise.com/caldwell',
   },
   alternates: {
-    canonical: 'https://boise-hoarding-cleanup.com/caldwell',
+    canonical: 'https://hvac-boise.com/caldwell',
   },
 }
 
-const caldwellAreas = [
+const caldwellNeighborhoods = [
   'Downtown Caldwell',
   'West Caldwell',
   'East Caldwell',
   'North Caldwell',
   'South Caldwell',
-  'Ustick Road Area',
+  'Ustick Road',
   'Cleveland Boulevard',
-  'Middleton Road Area',
+  'Middleton Road',
   'Farmway Road',
-  'Lake Lowell Area',
+  'Lake Lowell',
   'Karcher Road',
   'Indiana Avenue',
 ]
@@ -55,125 +53,110 @@ export default function CaldwellPage() {
 
       <HeroSection
         city="Caldwell"
-        headline="Hoarding Cleanup in Caldwell, Idaho"
-        subheadline="We help Caldwell families tackle hoarding situations. Respectful service, fair prices."
+        headline="HVAC Services in Caldwell, Idaho"
+        subheadline="Dependable heating and cooling for Caldwell homes."
       />
 
-      <SchedulingForm city="Caldwell" />
-
-      {/* Caldwell-Specific Content Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Hoarding Cleanup in Caldwell
+            <h2 className="text-3xl md:text-4xl font-bold text-dark-blue mb-6">
+              Caldwell HVAC Services
             </h2>
 
             <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                Caldwell has a mix of older homes in town and rural properties outside the city limits. We&apos;ve done hoarding cleanups in both—small houses, big farmhouses, outbuildings full of stuff. Whatever the situation, we can help.
+                Caldwell has a mix of homes—older places in town with character and newer builds on the outskirts. We've worked on all of them. Different systems, different challenges, but always the same goal: getting you comfortable again.
               </p>
 
               <p>
-                A lot of folks in Caldwell have lived in the same place for years. Sometimes decades of accumulation builds up. That&apos;s okay. We&apos;re not here to judge—we&apos;re here to help clear things out so people can get their space back.
+                Some of those older Caldwell homes have original furnaces that have been running for decades. When they finally give out, we can help you decide whether to repair or replace. We'll give you honest advice, not a sales pitch.
               </p>
 
               <p>
-                We work with the homeowner when possible. When it&apos;s a family member calling because a parent needs help, we handle that too. Either way, we keep things respectful and quiet.
+                And when Caldwell summers hit their peak, your AC needs to perform. If it's struggling to keep up, making strange noises, or running constantly, let us take a look before it fails completely.
               </p>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                What We Do
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                What We Do in Caldwell
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Full cleanouts:</strong> We clear the house, sort through everything, and haul it off</span>
+                  <span><strong>AC repair:</strong> Get your cool air back. We fix all makes and models</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Farm properties:</strong> Barns, sheds, outbuildings—we can clear those too</span>
+                  <span><strong>Furnace repair:</strong> No heat? We'll diagnose the problem and get it running</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate cleanouts:</strong> When someone passes and leaves behind a difficult situation</span>
+                  <span><strong>New installations:</strong> When it's time to replace, we'll help you choose wisely</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Rental cleanouts:</strong> For landlords dealing with a property left full of stuff</span>
+                  <span><strong>Maintenance:</strong> Prevent breakdowns with regular tune-ups</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Garage cleanouts:</strong> Packed garages and storage areas, cleared out</span>
+                  <span><strong>24/7 emergency:</strong> Heat out in January? We're available around the clock</span>
                 </li>
               </ul>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Areas We Cover in Caldwell
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                Caldwell Areas We Cover
               </h3>
 
               <p>
-                We work throughout Caldwell and Canyon County:
+                We serve all of Caldwell and Canyon County:
               </p>
             </div>
 
-            {/* Areas Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-6">
-              {caldwellAreas.map((area) => (
+              {caldwellNeighborhoods.map((neighborhood) => (
                 <div
-                  key={area}
-                  className="flex items-center gap-2 bg-fog px-3 py-2 rounded-lg"
+                  key={neighborhood}
+                  className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-lg"
                 >
-                  <MapPin className="w-4 h-4 text-light-blue flex-shrink-0" />
-                  <span className="text-sm text-gunmetal">{area}</span>
+                  <MapPin className="w-4 h-4 text-dark-blue flex-shrink-0" />
+                  <span className="text-sm text-gray-700">{neighborhood}</span>
                 </div>
               ))}
             </div>
 
-            {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Help in Caldwell?
+                Need HVAC Service in Caldwell?
               </h3>
               <p className="text-gray-300 mb-6">
-                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
+                Give us a call. Free estimates, honest prices.
               </p>
               <a
-                href="tel:2083611982"
-                className="inline-flex items-center gap-2 bg-brand-yellow text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
+                href="tel:2085059352"
+                className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (208) 361-1982
+                (208) 505-9352
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <WhyChooseUs />
-      <ServiceProcess />
+      <ServicesGrid />
       <FAQ />
 
-      {/* Related City Links */}
-      <section className="py-12 bg-fog">
+      <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gunmetal mb-6 text-center">
+          <h2 className="text-2xl font-bold text-dark-blue mb-6 text-center">
             Also Serving Nearby Cities
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/boise" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Boise
-            </Link>
-            <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian
-            </Link>
-            <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa
-            </Link>
-            <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle
-            </Link>
+            <Link href="/boise" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Boise</Link>
+            <Link href="/meridian" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Meridian</Link>
+            <Link href="/nampa" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Nampa</Link>
+            <Link href="/eagle" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Eagle</Link>
           </div>
         </div>
       </section>

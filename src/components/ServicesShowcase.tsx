@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const services = [
-  { title: 'Electronics & E-Waste', description: 'Old TVs, computers, monitors, printers, and electronics piling up? We haul it all away responsibly. E-waste requires special handling, and we make sure everything gets recycled or disposed of properly. No more letting outdated tech collect dust in your closet.', image: '/generated/electronics-ewaste.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Basement & Attic Cleanout', description: 'Those spaces where stuff goes to be forgotten? We clear them out. Old boxes, holiday decorations you\'ll never use again, that exercise equipment from 2015—we haul it all away so you can finally reclaim that storage space.', image: '/generated/basement-cleanout.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Yard Waste Removal', description: 'Tree branches, leaves, dirt, sod, bushes, landscaping debris—we\'ll clear it all out. Perfect for post-storm cleanup, landscaping projects, or general yard maintenance. We haul it away so you don\'t have to make multiple dump runs.', image: '/generated/yard-waste.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
-  { title: 'Garage Cleanout', description: 'Years of accumulated stuff in your garage? We\'ll clear it all out—old tools, boxes, holiday decorations, broken equipment, whatever you\'ve got. We sort, haul, and dispose of everything so you can actually park in your garage again.', image: '/generated/garage-cleanout.webp', link: 'tel:2083611982', buttonText: 'Call Now' },
+  { title: 'AC Repair & Service', description: 'When your AC stops cooling on a hot Boise summer day, you need help fast. We diagnose the problem quickly and fix it right the first time. Whether it\'s a refrigerant leak, compressor issue, or electrical problem—we\'ve seen it all and know how to get your system running again.', image: '/generated/hero.webp', link: '/ac-repair', buttonText: 'Learn More' },
+  { title: 'Furnace Repair & Installation', description: 'Idaho winters don\'t mess around. When your furnace goes out, we respond fast to get your heat back on. From pilot light problems to complete system failures, our techs handle it all. And if you need a new furnace, we\'ll help you choose the right one for your home and budget.', image: '/generated/hero.webp', link: '/furnace-installation', buttonText: 'Learn More' },
+  { title: 'Preventive Maintenance', description: 'The best way to avoid emergency repairs? Regular maintenance. We inspect, clean, and tune your system so it runs efficiently and catches small problems before they become expensive disasters. Most breakdowns are preventable with proper care.', image: '/generated/hero.webp', link: '/hvac-maintenance', buttonText: 'Learn More' },
+  { title: '24/7 Emergency Service', description: 'No heat at 2 AM in January? AC died during a 100-degree heat wave? Some things can\'t wait until Monday. Our emergency technicians are available around the clock, every day of the year. We\'ll get to you fast and fix the problem so you can get back to comfortable.', image: '/generated/hero.webp', link: '/emergency-hvac', buttonText: 'Learn More' },
 ]
 
 export function ServicesShowcase() {
@@ -13,8 +14,8 @@ export function ServicesShowcase() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Serving Boise and Surrounding Areas</h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">From Boise to the scenic stretches of the Treasure Valley, we provide fast, affordable junk removal services!</p>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Serving Boise and the Treasure Valley</h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto">From Boise to Nampa, Meridian to Caldwell, we keep homes and businesses comfortable year-round with reliable HVAC service.</p>
         </div>
 
         <div className="max-w-7xl mx-auto space-y-16">
@@ -29,7 +30,7 @@ export function ServicesShowcase() {
               <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
                 <h3 className="hidden lg:block text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-6">{service.title}</h3>
                 <p className="text-gray-700 leading-relaxed text-lg mb-8">{service.description}</p>
-                <a href={service.link} className="inline-block bg-[#FFC845] hover:bg-[#e5b13d] text-black font-bold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 uppercase tracking-wide">{service.buttonText}</a>
+                <Link href={service.link} className="inline-block bg-[#FFC845] hover:bg-[#e5b13d] text-black font-bold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105 uppercase tracking-wide">{service.buttonText}</Link>
               </div>
             </div>
           ))}
@@ -37,7 +38,7 @@ export function ServicesShowcase() {
 
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2083611982"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 361-1982</span></a>
+            <a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a>
           </Button>
         </div>
       </div>

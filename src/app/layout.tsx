@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Montserrat, Oswald } from 'next/font/google'
-import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
@@ -22,32 +21,32 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://boise-junk-removal.com'),
+  metadataBase: new URL('https://hvac-boise.com'),
   title: {
-    default: 'Junk Removal Services Boise | Professional Junk Hauling Idaho',
-    template: '%s | Junk Removal Boise',
+    default: 'HVAC Services Boise | Heating & Air Conditioning Repair Idaho',
+    template: '%s | Boise HVAC Pros',
   },
-  description: 'Professional junk removal services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Fast junk hauling, furniture removal, appliance disposal. Licensed & insured. Same-day service. Call (208) 361-1982.',
+  description: 'Professional HVAC services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
   keywords: [
-    'junk removal Boise',
-    'junk hauling Boise Idaho',
-    'junk removal services Meridian',
-    'furniture removal Nampa',
-    'junk removal near me',
-    'appliance removal Caldwell',
-    'trash hauling Eagle Idaho',
-    'debris removal Treasure Valley',
-    'same day junk removal',
-    'junk pickup services Idaho',
-    'bulk trash removal Boise',
-    'yard waste removal',
+    'HVAC Boise',
+    'air conditioning repair Boise Idaho',
+    'furnace repair Meridian',
+    'AC installation Nampa',
+    'heating repair near me',
+    'HVAC contractor Caldwell',
+    'air conditioning service Eagle Idaho',
+    'furnace installation Treasure Valley',
+    '24 hour HVAC repair',
+    'heating and cooling Boise',
+    'AC tune up Idaho',
+    'emergency furnace repair',
   ],
-  authors: [{ name: 'Boise Junk Removal Pros' }],
+  authors: [{ name: 'Boise HVAC Pros' }],
   openGraph: {
-    title: 'Junk Removal Services | Boise, Meridian, Nampa Idaho',
-    description: 'Professional, affordable junk removal services in the Treasure Valley. Licensed, insured, and eco-friendly. Same-day service available.',
-    url: 'https://boise-junk-removal.com',
-    siteName: 'Boise Junk Removal Pros',
+    title: 'HVAC Services | Boise, Meridian, Nampa Idaho',
+    description: 'Professional heating and air conditioning services in the Treasure Valley. Licensed, insured, and available 24/7 for emergencies.',
+    url: 'https://hvac-boise.com',
+    siteName: 'Boise HVAC Pros',
     locale: 'en_US',
     type: 'website',
   },
@@ -83,41 +82,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className={`${montserrat.variable} ${oswald.variable} font-sans antialiased`}>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-11134633087"
-          strategy="afterInteractive"
-        />
-        <Script id="google-ads" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-11134633087');
-          `}
-        </Script>
-        <Script id="meta-pixel" strategy="afterInteractive">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '533217938868618');
-            fbq('track', 'PageView');
-          `}
-        </Script>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{display:'none'}}
-            src="https://www.facebook.com/tr?id=533217938868618&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
         <QuoteFormProvider>
           <Header />
           {children}

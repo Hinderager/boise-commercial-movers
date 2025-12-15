@@ -20,15 +20,15 @@ export function MapSection() {
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Phone className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Phone</h4><a href="tel:2083611982" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">(208) 361-1982</a></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Phone</h4><a href="tel:2085059352" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">(208) 505-9352</a></div>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Mail className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4><a href="mailto:info@boise-junk-removal.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@boise-junk-removal.com</a></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4><a href="mailto:info@hvac-boise.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@hvac-boise.com</a></div>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Clock className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Hours</h4><p className="text-gray-700">Monday - Saturday: 8:00 AM - 9:00 PM</p><p className="text-gray-700">Sunday: 12:00 PM - 9:00 PM</p></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Hours</h4><p className="text-gray-700">Monday - Friday: 7:00 AM - 7:00 PM</p><p className="text-gray-700 font-semibold">24/7 Emergency Service Available</p></div>
             </div>
             <div className="pt-6 border-t border-gray-200">
               <h4 className="font-semibold text-gray-900 mb-3">Service Areas</h4>
@@ -36,12 +36,12 @@ export function MapSection() {
             </div>
           </div>
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185295.55415754188!2d-116.46135044999999!3d43.6150186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a2c4a71592dee96!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1702500000000!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0, minHeight: '500px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Junk Removal Pros Service Area - Boise, Idaho" />
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185295.55415754188!2d-116.46135044999999!3d43.6150186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef172e947b49d%3A0x9a2c4a71592dee96!2sBoise%2C%20ID!5e0!3m2!1sen!2sus!4v1702500000000!5m2!1sen!2sus" width="100%" height="100%" style={{ border: 0, minHeight: '500px' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Boise HVAC Pros Service Area - Boise, Idaho" />
           </div>
         </div>
 
         <div className="flex flex-row gap-4 justify-center mt-12">
-          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2083611982"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 361-1982</span></a></Button>
+          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a></Button>
         </div>
       </div>
     </section>

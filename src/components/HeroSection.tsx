@@ -16,7 +16,7 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
     <section className="relative h-[580px] md:h-[900px] lg:h-[950px] flex items-start lg:items-center overflow-visible">
       <Image
         src="/generated/hero.webp"
-        alt={city ? `Professional Junk Removal Services - ${city} Idaho` : "Professional Junk Removal Services - Boise Idaho"}
+        alt={city ? `Professional HVAC Services - ${city} Idaho` : "Professional HVAC Services - Boise Idaho"}
         fill priority quality={85} sizes="100vw"
         className="object-cover object-center"
         fetchPriority="high"
@@ -29,18 +29,18 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
 
             {isHomePage ? (
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight uppercase tracking-tight mb-4 -mt-8 md:mt-0">
-                <span className="text-[#0b7fb6] text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white'}}>Junk</span> Removal <br />Pros
+                Boise <span className="text-[#0b7fb6] text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white'}}>HVAC</span> Pros
                 <span className="hidden lg:block text-2xl mt-2 font-normal normal-case">Boise | Meridian | Nampa</span>
               </h1>
             ) : (
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight uppercase tracking-tight mb-4 -mt-8 md:mt-0">
                 <span className="text-[#0b7fb6] text-4xl sm:text-5xl md:text-6xl lg:text-7xl" style={{textShadow: '-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white'}}>{city}</span>
-                <br /><span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Junk Removal</span>
+                <br /><span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">HVAC Services</span>
               </h1>
             )}
 
             <h2 className="hidden lg:block text-lg sm:text-xl md:text-2xl font-bold text-white mb-4 md:mb-6 italic">
-              {subheadline || "Fast. Affordable. Eco-Friendly."}
+              {subheadline || "Heating & Cooling You Can Count On"}
             </h2>
 
             <div className="hidden md:flex text-sm sm:text-base md:text-2xl lg:text-lg text-white mb-4 md:mb-8 justify-center">
@@ -48,15 +48,15 @@ export function HeroSection({ city, headline, subheadline }: HeroSectionProps = 
                 <div className="flex items-center gap-2"><MapPin className="h-5 w-5 md:h-8 md:w-8 lg:h-5 lg:w-5 flex-shrink-0 text-[#4a90e2]" /><span>Locally owned</span></div>
                 <div className="flex items-center gap-2"><FileCheck className="h-5 w-5 md:h-8 md:w-8 lg:h-5 lg:w-5 flex-shrink-0 text-[#4a90e2]" /><span>Licensed</span></div>
                 <div className="flex items-center gap-2"><ShieldCheck className="h-5 w-5 md:h-8 md:w-8 lg:h-5 lg:w-5 flex-shrink-0 text-[#4a90e2]" /><span>Insured</span></div>
-                <div className="flex items-center gap-2"><Clock className="h-5 w-5 md:h-8 md:w-8 lg:h-5 lg:w-5 flex-shrink-0 text-[#4a90e2]" /><span>Same Day Service</span></div>
+                <div className="flex items-center gap-2"><Clock className="h-5 w-5 md:h-8 md:w-8 lg:h-5 lg:w-5 flex-shrink-0 text-[#4a90e2]" /><span>24/7 Emergency</span></div>
               </div>
             </div>
 
-            <h3 className="hidden md:block text-sm sm:text-base md:text-lg font-bold text-white uppercase tracking-wider mb-3 md:mb-4">Get Your Free Quote</h3>
+            <h3 className="hidden md:block text-sm sm:text-base md:text-lg font-bold text-white uppercase tracking-wider mb-3 md:mb-4">Get Your Free Estimate</h3>
 
             <div className="hidden md:flex flex-row gap-3 md:gap-4 mb-4 lg:mb-12 md:lg:mb-16 justify-center px-8 lg:px-0">
               <Button asChild size="lg" className="bg-[#FFC845] hover:bg-[#e5b13d] text-black font-bold text-lg md:text-2xl lg:text-2xl px-3 md:px-10 lg:px-8 lg:px-10 py-5 md:py-8 lg:py-6 lg:py-8 rounded-lg uppercase flex-1 lg:flex-1 sm:w-48 border-4 border-[#FFC845]">
-                <a href="tel:2083611982"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 361-1982</span></a>
+                <a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a>
               </Button>
             </div>
           </div>

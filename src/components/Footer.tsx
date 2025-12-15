@@ -9,20 +9,21 @@ export function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Company</h4>
             <ul className="space-y-2">
-              <li><Link href="/what-we-take" className="text-white/80 hover:text-white transition-colors">What We Take</Link></li>
-              <li><Link href="/pricing" className="text-white/80 hover:text-white transition-colors">Pricing</Link></li>
-              <li><Link href="/blog" className="text-white/80 hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/blogs" className="text-white/80 hover:text-white transition-colors">Blog</Link></li>
+              <li><Link href="/privacy" className="text-white/80 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="text-white/80 hover:text-white transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-xl font-bold mb-4 text-light-blue">Services</h4>
             <ul className="space-y-2">
-              <li className="text-white/80">Furniture Removal</li>
-              <li className="text-white/80">Appliance Removal</li>
-              <li className="text-white/80">Yard Waste Removal</li>
-              <li className="text-white/80">Construction Debris</li>
-              <li className="text-white/80">Estate Cleanouts</li>
+              <li><Link href="/ac-repair" className="text-white/80 hover:text-white transition-colors">AC Repair</Link></li>
+              <li><Link href="/ac-installation" className="text-white/80 hover:text-white transition-colors">AC Installation</Link></li>
+              <li><Link href="/heating-repair" className="text-white/80 hover:text-white transition-colors">Heating Repair</Link></li>
+              <li><Link href="/furnace-installation" className="text-white/80 hover:text-white transition-colors">Furnace Installation</Link></li>
+              <li><Link href="/hvac-maintenance" className="text-white/80 hover:text-white transition-colors">HVAC Maintenance</Link></li>
+              <li><Link href="/emergency-hvac" className="text-white/80 hover:text-white transition-colors">24/7 Emergency</Link></li>
             </ul>
           </div>
 
@@ -42,11 +43,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
-                <a href="tel:2083611982" className="text-white/80 hover:text-white transition-colors font-semibold">(208) 361-1982</a>
+                <a href="tel:2085059352" className="text-white/80 hover:text-white transition-colors font-semibold">(208) 505-9352</a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
-                <a href="mailto:info@boise-junk-removal.com" className="text-white/80 hover:text-white transition-colors">info@boise-junk-removal.com</a>
+                <a href="mailto:info@hvac-boise.com" className="text-white/80 hover:text-white transition-colors">info@hvac-boise.com</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
@@ -54,7 +55,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="h-5 w-5 text-[#ff6b35] flex-shrink-0 mt-1" />
-                <p className="text-white/80">Mon-Sat: 8am - 9pm<br />Sun: 12pm - 9pm</p>
+                <p className="text-white/80">Mon-Fri: 7am - 7pm<br />24/7 Emergency Service</p>
               </li>
             </ul>
           </div>
@@ -68,7 +69,7 @@ export function Footer() {
               <span className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center"><Linkedin className="h-5 w-5" /></span>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-white/60 text-sm">&copy; {new Date().getFullYear()} Junk Removal Pros. All rights reserved.</p>
+              <p className="text-white/60 text-sm">&copy; {new Date().getFullYear()} Boise HVAC Pros. All rights reserved.</p>
               <div className="flex gap-4 mt-2 justify-center md:justify-end">
                 <Link href="/privacy" className="text-white/60 text-sm hover:text-white transition-colors">Privacy Policy</Link>
                 <Link href="/terms" className="text-white/60 text-sm hover:text-white transition-colors">Terms of Service</Link>

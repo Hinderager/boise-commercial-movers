@@ -1,35 +1,33 @@
 import { Metadata } from 'next'
 import { HeroSection } from '@/components/HeroSection'
-import { SchedulingForm } from '@/components/SchedulingForm'
-import { WhyChooseUs } from '@/components/WhyChooseUs'
-import { ServiceProcess } from '@/components/ServiceProcess'
+import { ServicesGrid } from '@/components/ServicesGrid'
 import { FAQ } from '@/components/FAQ'
 import { StructuredData } from '@/components/StructuredData'
 import { CheckCircle, MapPin, Phone } from 'lucide-react'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Hoarding Cleanup Boise Idaho | Professional Hoarder Cleanout Services',
-  description: 'Professional hoarding cleanup services in Boise, Idaho. Compassionate hoarder cleanout, estate cleanout, and clutter removal. Licensed & insured. Same-day service available. Free estimates. Call (208) 361-1982.',
+  title: 'HVAC Services Boise Idaho | AC Repair & Heating | Boise HVAC Pros',
+  description: 'Professional HVAC services in Boise, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service available. Free estimates. Call (208) 505-9352.',
   keywords: [
-    'hoarding cleanup Boise',
-    'hoarding cleanup Boise Idaho',
-    'hoarder cleanout Boise',
-    'hoarding cleanup services Boise',
-    'hoarding help Boise ID',
-    'estate cleanout Boise',
-    'clutter removal Boise Idaho',
-    'hoarding remediation Boise',
-    'compassionate hoarding cleanup Boise',
-    'Boise hoarder cleanup services',
+    'HVAC Boise',
+    'AC repair Boise Idaho',
+    'furnace repair Boise',
+    'heating services Boise',
+    'air conditioning Boise ID',
+    'HVAC contractor Boise',
+    'furnace installation Boise Idaho',
+    'AC installation Boise',
+    'emergency HVAC Boise',
+    'Boise heating and cooling',
   ],
   openGraph: {
-    title: 'Hoarding Cleanup Boise Idaho | Professional Hoarder Cleanout',
-    description: 'Professional, compassionate hoarding cleanup services in Boise, Idaho. Licensed, insured, and discreet. Same-day service available.',
-    url: 'https://boise-hoarding-cleanup.com/boise',
+    title: 'HVAC Services Boise Idaho | AC Repair & Heating',
+    description: 'Professional heating and air conditioning services in Boise, Idaho. Licensed, insured, and available 24/7 for emergencies.',
+    url: 'https://hvac-boise.com/boise',
   },
   alternates: {
-    canonical: 'https://boise-hoarding-cleanup.com/boise',
+    canonical: 'https://hvac-boise.com/boise',
   },
 }
 
@@ -55,62 +53,59 @@ export default function BoisePage() {
 
       <HeroSection
         city="Boise"
-        headline="Hoarding Cleanup in Boise, Idaho"
-        subheadline="We help Boise families deal with hoarding situations. Respectful service, fair prices."
+        headline="HVAC Services in Boise, Idaho"
+        subheadline="Heating and cooling you can count on. Local techs, fair prices."
       />
 
-      <SchedulingForm city="Boise" />
-
-      {/* Boise-Specific Content Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-gunmetal mb-6">
-              Hoarding Cleanup in Boise
+            <h2 className="text-3xl md:text-4xl font-bold text-dark-blue mb-6">
+              Boise HVAC Services
             </h2>
 
             <div className="prose prose-lg max-w-none text-gray-600 [&>p]:mb-6">
               <p>
-                If you&apos;re dealing with a hoarding situation in Boise, we can help. It&apos;s more common than people think, and there&apos;s no shame in asking for assistance.
+                Boise weather keeps you on your toes. Summers hit 100 degrees, winters drop below freezing. Your HVAC system works hard here, and when it breaks down, you need someone who can fix it fast.
               </p>
 
               <p>
-                Boise has all kinds of homes—older houses in the North End, newer builds in Southeast Boise, apartments downtown. We&apos;ve done cleanups in all of them.
+                We've been working on heating and cooling systems across Boise for years. Older homes in the North End with their quirky ductwork. New construction in Southeast Boise. Downtown apartments. We've seen it all.
               </p>
 
               <p>
-                We work with the person living there when possible. When it&apos;s a family member calling on someone&apos;s behalf, we handle that too. Either way, we keep things respectful and low-key.
+                When your AC quits on a hot August afternoon or your furnace dies in January, we understand it's not just an inconvenience—it's urgent. That's why we offer same-day service and 24/7 emergency repairs.
               </p>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                What We Do
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                What We Do in Boise
               </h3>
 
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Full cleanouts:</strong> We clear everything out, sort through it, and haul it away</span>
+                  <span><strong>AC repair:</strong> We fix all makes and models. Refrigerant leaks, compressor issues, electrical problems—we diagnose and repair it</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Estate cleanouts:</strong> When a loved one passes and leaves behind a difficult situation</span>
+                  <span><strong>Furnace repair:</strong> No heat? We'll get it running. Pilot light issues, ignitor problems, blower motor failures</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Clutter help:</strong> Before things get too bad, we can help get on top of it</span>
+                  <span><strong>New installations:</strong> Need a new system? We'll help you choose the right equipment for your home and budget</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Deep cleaning:</strong> Once everything&apos;s out, we can clean the space so it&apos;s livable</span>
+                  <span><strong>Maintenance:</strong> Tune-ups that prevent breakdowns and keep your system running efficiently</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                  <span><strong>Sorting:</strong> We help find valuables and important documents before anything gets tossed</span>
+                  <span><strong>24/7 emergency:</strong> Heat out at 2 AM? AC dead during a heat wave? We're available around the clock</span>
                 </li>
               </ul>
 
-              <h3 className="text-2xl font-bold text-gunmetal mt-8 mb-4">
-                Areas We Cover in Boise
+              <h3 className="text-2xl font-bold text-dark-blue mt-8 mb-4">
+                Areas We Serve in Boise
               </h3>
 
               <p>
@@ -118,62 +113,50 @@ export default function BoisePage() {
               </p>
             </div>
 
-            {/* Neighborhoods Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-6">
               {boiseNeighborhoods.map((neighborhood) => (
                 <div
                   key={neighborhood}
-                  className="flex items-center gap-2 bg-fog px-3 py-2 rounded-lg"
+                  className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-lg"
                 >
-                  <MapPin className="w-4 h-4 text-light-blue flex-shrink-0" />
-                  <span className="text-sm text-gunmetal">{neighborhood}</span>
+                  <MapPin className="w-4 h-4 text-dark-blue flex-shrink-0" />
+                  <span className="text-sm text-gray-700">{neighborhood}</span>
                 </div>
               ))}
             </div>
 
-            {/* CTA */}
             <div className="mt-10 p-6 bg-dark-blue rounded-xl text-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Need Help in Boise?
+                Need HVAC Service in Boise?
               </h3>
               <p className="text-gray-300 mb-6">
-                Give us a call. We&apos;ll talk through your situation and give you a free estimate.
+                Call us for a free estimate. We'll get your system running right.
               </p>
               <a
-                href="tel:2083611982"
-                className="inline-flex items-center gap-2 bg-brand-yellow text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
+                href="tel:2085059352"
+                className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                (208) 361-1982
+                (208) 505-9352
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <WhyChooseUs />
-      <ServiceProcess />
+      <ServicesGrid />
       <FAQ />
 
-      {/* Related City Links */}
-      <section className="py-12 bg-fog">
+      <section className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-gunmetal mb-6 text-center">
+          <h2 className="text-2xl font-bold text-dark-blue mb-6 text-center">
             Also Serving Nearby Cities
           </h2>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/meridian" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Meridian
-            </Link>
-            <Link href="/nampa" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Nampa
-            </Link>
-            <Link href="/caldwell" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Caldwell
-            </Link>
-            <Link href="/eagle" className="text-dark-blue underline hover:text-light-blue font-medium">
-              Eagle
-            </Link>
+            <Link href="/meridian" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Meridian</Link>
+            <Link href="/nampa" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Nampa</Link>
+            <Link href="/caldwell" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Caldwell</Link>
+            <Link href="/eagle" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Eagle</Link>
           </div>
         </div>
       </section>
