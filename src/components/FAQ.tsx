@@ -5,13 +5,13 @@ import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export const faqs = [
-  { question: 'How much does HVAC repair cost?', answer: 'Most repairs run between $150-500 depending on the issue. Diagnostic fees typically start around $89 and get applied to the repair cost if you move forward. We always provide upfront pricing before any work begins.' },
-  { question: 'How often should I service my HVAC system?', answer: 'We recommend a tune-up twice a year—once in spring for your AC and once in fall for your furnace. Regular maintenance catches small problems before they become expensive repairs and keeps your system running efficiently.' },
-  { question: 'Do you offer 24/7 emergency service?', answer: 'Yes. No heat in the middle of winter or AC failure during a heat wave? We get it—some things can\'t wait. Our emergency technicians are available around the clock, including weekends and holidays.' },
-  { question: 'How long does a new AC or furnace installation take?', answer: 'Most standard installations take one day. If we\'re replacing both your furnace and AC or doing ductwork modifications, it might take two days. We\'ll give you a timeline before we start.' },
-  { question: 'What brands do you work on?', answer: 'We service all major brands—Carrier, Trane, Lennox, Rheem, Goodman, Bryant, American Standard, and more. Our techs are trained to diagnose and repair any make or model.' },
-  { question: 'How do I know if I need a repair or replacement?', answer: 'Generally, if your system is over 15 years old and needs a repair costing more than half a new unit, replacement makes more sense. We\'ll always give you honest advice and both options so you can decide what\'s right for your situation.' },
-  { question: 'Do you offer financing?', answer: 'Yes, we offer flexible financing options on new equipment installations. Get a new system now and pay over time with approved credit. Ask us about current promotions.' },
+  { question: 'How much does a commercial move cost?', answer: 'Commercial moves vary widely based on size, distance, and complexity. Most office moves run $1,000-$10,000+. We provide free detailed estimates that break down all costs upfront—no surprises on moving day.' },
+  { question: 'How long does a typical office move take?', answer: 'Most small to medium office moves (10-20 employees) take one day. Larger offices or complex moves might take 2-3 days. We can also do after-hours or weekend moves to avoid business disruption.' },
+  { question: 'Can you move our office over the weekend?', answer: 'Absolutely. We specialize in after-hours and weekend moves to minimize downtime. Your team can leave Friday afternoon and come back Monday morning to a fully set-up office.' },
+  { question: 'Do you handle IT equipment and servers?', answer: 'Yes. We work with your IT team to properly disconnect, transport, and reconnect servers, workstations, and network equipment. Our movers are trained in handling sensitive electronics.' },
+  { question: 'What if something gets damaged during the move?', answer: 'We\'re fully licensed and insured for commercial moves. Our team takes extreme care with your equipment, and we carry comprehensive liability coverage. Damage is rare, but if it happens, we handle it.' },
+  { question: 'Do you provide packing services?', answer: 'Yes. We offer full packing services including labeling systems, specialty crating for sensitive items, and furniture disassembly/reassembly. You can also choose to pack yourself and we\'ll just handle the transport.' },
+  { question: 'Can you help with office layout and setup?', answer: 'Definitely. We offer space planning consultation and can set up your new office according to your floor plan. We\'ll work with you to make sure everything goes exactly where you want it.' },
 ]
 
 export function FAQ() {

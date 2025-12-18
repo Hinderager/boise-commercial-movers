@@ -3,18 +3,17 @@ import Link from 'next/link'
 import { ArrowRight, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services | Heating & Cooling | Boise HVAC Pros',
-  description: 'Complete HVAC services in the Treasure Valley. AC repair, furnace installation, heat pumps, and more. Call (208) 505-9352.',
-  alternates: { canonical: 'https://hvac-boise.com/services' },
+  title: 'Commercial Moving Services in Boise | Office & Business Relocation',
+  description: 'Professional commercial moving services in Boise and the Treasure Valley. Office moving, warehouse relocation, equipment moving, and more. Call (208) 505-9352.',
+  alternates: { canonical: 'https://boise-commercial-movers.com/services' },
 }
 
 const categories = [
-  { name: 'Air Conditioning', slug: 'air-conditioning', description: 'Complete air conditioning services including repair, maintenance, and installation for homes and businesses.' },
-  { name: 'Heating', slug: 'heating', description: 'Complete heating services including heater repair, maintenance, and installation.' },
-  { name: 'Furnaces', slug: 'furnaces', description: 'Complete furnace services including repair, maintenance, and installation.' },
-  { name: 'Heat Pumps', slug: 'heat-pumps', description: 'Complete heat pump services including repair, maintenance, and installation.' },
-  { name: 'Indoor Air Quality', slug: 'indoor-air-quality', description: 'Indoor air quality services to improve the air you breathe.' },
-  { name: 'Ductwork', slug: 'ductwork', description: 'Ductwork services including repair, replacement, and sealing.' },
+  { name: 'Office Moving', slug: 'office-moving', description: 'Complete office relocation services including cubicles, desks, conference rooms, and after-hours moves.' },
+  { name: 'Business Relocation', slug: 'business-relocation', description: 'Full-service business moves for retail stores, restaurants, and commercial facilities.' },
+  { name: 'Warehouse Moving', slug: 'warehouse-moving', description: 'Professional warehouse relocation, inventory moving, and heavy equipment transport.' },
+  { name: 'Equipment Moving', slug: 'equipment-moving', description: 'Specialized moving for IT equipment, medical equipment, and manufacturing machinery.' },
+  { name: 'Specialized Services', slug: 'specialized', description: 'IT relocation, furniture installation, and dedicated project management for complex moves.' },
 ]
 
 export default function ServicesPage() {
@@ -22,8 +21,8 @@ export default function ServicesPage() {
     <main className="pt-20">
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our HVAC Services</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Complete heating and cooling services for the Treasure Valley.</p>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Commercial Moving Services</h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">Professional office and business relocation services for the Treasure Valley.</p>
         </div>
       </section>
       <section className="py-16 bg-white">
@@ -41,7 +40,7 @@ export default function ServicesPage() {
       </section>
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-white mb-4">Need HVAC Service?</h2>
+          <h2 className="text-2xl font-bold text-white mb-4">Need Commercial Moving Services?</h2>
           <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
             <Phone className="w-5 h-5" />(208) 505-9352
           </a>

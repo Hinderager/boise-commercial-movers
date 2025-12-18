@@ -6,14 +6,14 @@ import { Button } from '@/components/ui/button'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const staticReviews = [
-  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Our AC stopped working on the hottest day of July. Called them and they had a tech out within 2 hours. Fixed the issue quickly and explained everything. Fair price, no pressure. Highly recommend!' },
-  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Had them install a new furnace before winter hit. The crew was professional, cleaned up after themselves, and the new system works great. Our heating bills are noticeably lower now.' },
-  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Used them for annual HVAC maintenance. Tech was knowledgeable and thorough. Found a small issue before it became a big problem. Great preventive service at a reasonable price.' },
-  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'Our heat pump was making strange noises. They diagnosed the problem accurately and had the parts to fix it same day. Very impressed with their expertise and efficiency.' },
-  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Honest company. They could have sold me a new AC unit but instead recommended a repair that cost a fraction. System has been running perfectly since. Will use them for all our HVAC needs.' },
-  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Emergency furnace repair in January - they answered the phone at 10pm and had someone here by midnight. Saved us from a very cold night. These guys are the real deal.' },
-  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Just had a new AC system installed. From the estimate to final installation, everything was professional. The techs explained how to use the new thermostat and answered all my questions.' },
-  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Best HVAC company in Boise. Fast response, fair prices, quality work. They serviced both our AC and furnace and everything runs perfectly now. Friendly staff too!' },
+  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'We needed to move our entire office over a weekend to avoid downtime. They showed up Friday evening and by Monday morning we were fully operational in our new space. The crew was professional, efficient, and careful with everything. Couldn\'t have asked for a better experience.' },
+  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Moved our medical practice including some very sensitive equipment. The team handled everything with extreme care and actually knew how to properly disconnect and set up our systems. Worth every penny.' },
+  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'These guys moved our warehouse inventory and heavy machinery. I was worried about damage but they came with the right equipment and the expertise to handle it all. Nothing broke, nothing got lost. Impressive.' },
+  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'Best commercial movers we\'ve used. They assigned us a project manager who coordinated everything—labeling, packing, setup at the new office. Our employees barely noticed the transition.' },
+  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Moved our IT department including servers, workstations, and all the cabling. They worked with our IT team to make sure everything was disconnected and reconnected properly. No data loss, no issues.' },
+  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'We run a restaurant and needed to move all our kitchen equipment. They showed up on time, protected everything, and reassembled it all at the new location. Our downtime was minimal. Highly recommend.' },
+  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Relocated our retail store. The crew was fast, careful with our inventory, and set up all the fixtures exactly as we wanted. The price was fair and they stuck to their estimate. Great service.' },
+  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Professional movers who understand business needs. They moved our office furniture, packed our files, and even helped with the layout in the new space. Made a stressful move much easier.' },
 ]
 
 export function GoogleReviews() {

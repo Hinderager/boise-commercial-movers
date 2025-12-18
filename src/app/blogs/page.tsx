@@ -3,43 +3,43 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'HVAC Blog | Heating & Cooling Tips | Boise HVAC Pros',
-  description: 'Expert tips, guides, and insights about heating and air conditioning in Boise and the Treasure Valley. Learn from the pros at Boise HVAC Pros.',
+  title: 'Commercial Moving Blog | Office Relocation Tips | Boise Commercial Movers',
+  description: 'Expert tips, guides, and insights about commercial moving in Boise and the Treasure Valley. Learn from professional business movers.',
   alternates: {
-    canonical: 'https://hvac-boise.com/blogs',
+    canonical: 'https://boise-commercial-movers.com/blogs',
   },
 }
 
 const blogPosts = [
   {
-    slug: 'hvac-pricing-explained',
-    title: 'HVAC Service Pricing: How It Actually Works',
-    excerpt: 'Wondering what HVAC repairs or installations cost in Boise? Here\'s the straightforward explanation.',
-    image: '/hero-hvac.jpg',
+    slug: 'office-move-planning-timeline',
+    title: 'Planning an Office Move: Your 8-Week Timeline',
+    excerpt: 'Moving an office isn\'t something you figure out as you go. Here\'s the realistic timeline most businesses need.',
+    image: '/generated/office-move-timeline.webp',
   },
   {
-    slug: 'signs-ac-needs-repair',
-    title: '7 Signs Your AC Needs Repair (Before It Dies Completely)',
-    excerpt: 'Your AC is probably warning you before it fails. Here\'s what to watch for.',
-    image: '/hero-hvac.jpg',
+    slug: 'minimize-business-downtime-during-move',
+    title: 'How to Minimize Downtime When Moving Your Business',
+    excerpt: 'Every hour your business is down costs money. Here\'s how to keep disruption to a minimum.',
+    image: '/generated/minimize-downtime.webp',
   },
   {
-    slug: 'repair-vs-replace-furnace',
-    title: 'Should You Repair or Replace Your Furnace?',
-    excerpt: 'Sometimes repair makes sense. Sometimes you\'re just throwing money away. Here\'s how to decide.',
-    image: '/hero-hvac.jpg',
+    slug: 'commercial-moving-costs-boise',
+    title: 'What Commercial Moves Actually Cost in Boise',
+    excerpt: 'No two office moves cost the same. Here\'s what goes into the price and what you should expect to pay.',
+    image: '/generated/commercial-moving-costs.webp',
   },
   {
-    slug: 'choosing-hvac-contractor-boise',
-    title: 'How to Choose an HVAC Contractor in Boise',
-    excerpt: 'Not all HVAC companies are the same. Here\'s what to look for and what to avoid.',
-    image: '/hero-hvac.jpg',
+    slug: 'it-equipment-moving-best-practices',
+    title: 'Moving IT Equipment Without Losing Your Mind',
+    excerpt: 'Servers, workstations, networks—IT moves are high-stakes. Here\'s how to do it right.',
+    image: '/generated/it-equipment-moving.webp',
   },
   {
-    slug: 'seasonal-hvac-maintenance',
-    title: 'Seasonal HVAC Maintenance for Idaho Homes',
-    excerpt: 'Idaho puts your HVAC through extremes. Here\'s how to keep it running through hot summers and cold winters.',
-    image: '/hero-hvac.jpg',
+    slug: 'choosing-commercial-movers-boise',
+    title: 'How to Choose Commercial Movers in Boise',
+    excerpt: 'Not every moving company can handle business relocations. Here\'s what to look for.',
+    image: '/generated/choosing-commercial-movers.webp',
   },
 ]
 
@@ -50,10 +50,10 @@ export default function BlogsPage() {
       <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-            Our Blog
+            Commercial Moving Blog
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Tips, guides, and insights about heating and cooling in the Treasure Valley. Real advice from real HVAC professionals.
+            Tips, guides, and insights about office and business relocation in the Treasure Valley. Real advice from commercial moving professionals.
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function BlogsPage() {
                 <Link href={`/blogs/${post.slug}`}>
                   <div className="relative h-48 bg-dark-blue">
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-white/20 text-6xl font-bold">HVAC</span>
+                      <span className="text-white/20 text-4xl font-bold text-center px-4">COMMERCIAL MOVING</span>
                     </div>
                   </div>
                   <div className="p-6">
@@ -95,10 +95,10 @@ export default function BlogsPage() {
       <section className="py-16 bg-dark-blue">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Get Started?
+            Ready to Move Your Business?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free estimate on your HVAC project.
+            Contact us today for a free estimate on your commercial move.
           </p>
           <a
             href="tel:2085059352"

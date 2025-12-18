@@ -2,15 +2,15 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Snowflake, Flame, Wrench, ThermometerSun } from 'lucide-react'
+import { Building2, Truck, Package, MonitorCog } from 'lucide-react'
 import { useQuoteForm } from '@/context/QuoteFormContext'
 import Link from 'next/link'
 
 const services = [
-  { icon: Snowflake, title: 'AC Repair & Installation', description: 'Keep cool all summer. We fix any AC problem and install new systems with expert precision.', href: '/services/air-conditioning' },
-  { icon: Flame, title: 'Heating & Furnace', description: 'Stay warm when it matters. Furnace repairs, replacements, and tune-ups you can count on.', href: '/services/furnaces' },
-  { icon: Wrench, title: 'HVAC Maintenance', description: 'Prevent costly breakdowns. Regular maintenance keeps your system running efficiently year-round.', href: '/resources/maintenance-plans' },
-  { icon: ThermometerSun, title: '24/7 Emergency Service', description: 'No heat in January? AC out in July? We respond fast when you need us most.', href: '/services/air-conditioning/emergency-ac-repair' },
+  { icon: Building2, title: 'Office Moving', description: 'Complete office relocations with minimal disruption. We handle everything from cubicles to conference rooms.', href: '/services/office-moving' },
+  { icon: Truck, title: 'Business Relocation', description: 'Full-service business moves. Retail, restaurants, medical offices—we move it all efficiently and safely.', href: '/services/business-relocation' },
+  { icon: Package, title: 'Warehouse Moving', description: 'Heavy equipment, inventory, and warehouse relocations. We have the equipment and expertise for large-scale moves.', href: '/services/warehouse-moving' },
+  { icon: MonitorCog, title: 'Equipment & IT Moving', description: 'Specialized moving for sensitive equipment. IT infrastructure, medical devices, and manufacturing equipment handled with care.', href: '/services/equipment-moving' },
 ]
 
 export function ServicesGrid() {
@@ -24,7 +24,7 @@ export function ServicesGrid() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Our Services</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">Professional heating and cooling services for the Treasure Valley</p>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">Professional commercial moving services for the Treasure Valley</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

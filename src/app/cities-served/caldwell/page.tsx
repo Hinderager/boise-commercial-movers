@@ -1,118 +1,177 @@
 import { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
-import { CheckCircle, MapPin, Phone, ArrowRight } from 'lucide-react'
+import { MapPin, Phone, Clock, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Caldwell Idaho | AC & Heating | Boise HVAC Pros',
-  description: 'Professional HVAC services in Caldwell, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
-  keywords: ['HVAC Caldwell', 'AC repair Caldwell Idaho', 'furnace repair Caldwell', 'heating services Caldwell', 'air conditioning Caldwell'],
+  title: 'Commercial Movers in Caldwell, ID | Office Moving Services',
+  description: 'Professional commercial moving services in Caldwell. Office relocations, business moves, and commercial equipment handling throughout Caldwell and Canyon County.',
   alternates: {
-    canonical: 'https://hvac-boise.com/cities-served/caldwell',
+    canonical: 'https://boise-commercial-movers.com/cities-served/caldwell',
   },
 }
 
-const neighborhoods = ['Downtown Caldwell', 'West Caldwell', 'East Caldwell', 'North Caldwell', 'South Caldwell', 'Ustick Road', 'Cleveland Boulevard', 'Middleton Road', 'Farmway Road', 'Lake Lowell', 'Karcher Road', 'Indiana Avenue']
-
-const services = [
-  { name: 'AC Repair', href: '/cities-served/caldwell/ac-repair', description: 'Fast air conditioning repair' },
-  { name: 'AC Installation', href: '/cities-served/caldwell/ac-installation', description: 'New AC system installation' },
-  { name: 'Furnace Repair', href: '/cities-served/caldwell/furnace-repair', description: 'Expert furnace repair' },
-  { name: 'Furnace Installation', href: '/cities-served/caldwell/furnace-installation', description: 'New furnace installation' },
-  { name: 'Heat Pump Service', href: '/cities-served/caldwell/heat-pump-repair', description: 'Heat pump repair & install' },
-  { name: 'HVAC Maintenance', href: '/cities-served/caldwell/hvac-maintenance', description: 'Preventive maintenance' },
-]
-
 export default function CaldwellPage() {
   return (
-    <main className="pt-20">
-      <section className="relative py-24 md:py-32">
-        <Image
-          src="/generated/caldwell-hvac.webp"
-          alt="HVAC Services in Caldwell, Idaho"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
-        <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HVAC Services in Caldwell</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional heating and cooling services for Caldwell homes and businesses. Licensed, insured, and available 24/7.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
-          </a>
+    <main className="min-h-screen">
+      <section className="bg-dark-blue text-white py-16 md:py-24">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              Commercial Movers in Caldwell, Idaho
+            </h1>
+            <p className="text-xl md:text-2xl text-blue-100 mb-8">
+              Professional office moving services throughout Caldwell
+            </p>
+            <a href="tel:2085059352" className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
+              Call (208) 505-9352 for Free Quote
+            </a>
+          </div>
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-dark-blue mb-6">Caldwell HVAC Services</h2>
-            <div className="prose prose-lg max-w-none text-gray-600 mb-8">
-              <p>Caldwell is the county seat of Canyon County. With hot summers and cold, sometimes harsh winters, your HVAC system works hard year-round. When you need heating or cooling service in Caldwell, Boise HVAC Pros is here to help.</p>
-              <p>We've served Caldwell homeowners for years, handling everything from emergency AC repairs during summer heat waves to furnace installations before winter hits. Our technicians know Caldwell homes and the unique HVAC challenges they face.</p>
+          <div className="max-w-3xl mx-auto">
+            <div className="flex items-start gap-4 mb-8">
+              <MapPin className="w-8 h-8 text-dark-blue flex-shrink-0" />
+              <div>
+                <h2 className="text-3xl font-bold text-gunmetal mb-4">Serving All of Caldwell</h2>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  We provide commercial moving services throughout Caldwell, from downtown offices to business parks along Cleveland Boulevard and 10th Avenue. Our crews understand the local business community and provide professional service for Canyon County companies.
+                </p>
+              </div>
             </div>
 
-            <h3 className="text-2xl font-bold text-dark-blue mb-6">Our Services in Caldwell</h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-              {services.map((service) => (
-                <Link key={service.href} href={service.href} className="group bg-gray-50 p-4 rounded-lg hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-dark-blue group-hover:text-[#0b7fb6]">{service.name}</h4>
-                  <p className="text-sm text-gray-600">{service.description}</p>
-                </Link>
-              ))}
-            </div>
-
-            <h3 className="text-2xl font-bold text-dark-blue mb-6">Caldwell Areas We Serve</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mb-12">
-              {neighborhoods.map((neighborhood) => (
-                <div key={neighborhood} className="flex items-center gap-2 bg-gray-100 px-3 py-2 rounded-lg">
-                  <MapPin className="w-4 h-4 text-dark-blue flex-shrink-0" />
-                  <span className="text-sm text-gray-700">{neighborhood}</span>
-                </div>
-              ))}
-            </div>
-
-            <h3 className="text-2xl font-bold text-dark-blue mb-6">Why Caldwell Homeowners Choose Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700"><strong>Local Service:</strong> We're based in the Treasure Valley and know Caldwell well.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700"><strong>Fast Response:</strong> Same-day service available for Caldwell residents.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700"><strong>24/7 Emergency:</strong> HVAC emergencies don't wait—neither do we.</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700"><strong>Fair Pricing:</strong> Upfront quotes with no hidden fees.</span>
-              </li>
-            </ul>
-
-            <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
-              <h3 className="text-2xl font-bold text-white mb-4">Need HVAC Service in Caldwell?</h3>
-              <p className="text-gray-300 mb-6">Call us for a free estimate. We'll get your system running right.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
-              </a>
+            <div className="grid md:grid-cols-2 gap-8 mt-12">
+              <div>
+                <h3 className="text-xl font-bold text-gunmetal mb-4">Common Service Areas</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Downtown Caldwell offices</li>
+                  <li>• Cleveland Boulevard businesses</li>
+                  <li>• 10th Avenue commercial area</li>
+                  <li>• Caldwell business parks</li>
+                  <li>• Industrial districts</li>
+                  <li>• Retail corridors</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gunmetal mb-4">Quick Facts</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Same-day estimates available</li>
+                  <li>• Weekend moves offered</li>
+                  <li>• After-hours relocations</li>
+                  <li>• Experienced commercial crews</li>
+                  <li>• Fully insured and licensed</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-12 bg-gray-100">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-dark-blue mb-6">Also Serving Nearby Cities</h2>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Link href="/cities-served/boise" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Boise</Link>
-            <Link href="/cities-served/meridian" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Meridian</Link>
-            <Link href="/cities-served/nampa" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Nampa</Link>
-            <Link href="/cities-served/eagle" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Eagle</Link>
-            <Link href="/cities-served/garden-city" className="text-dark-blue underline hover:text-[#0b7fb6] font-medium">Garden City</Link>
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-gunmetal mb-8 text-center">Commercial Moving Services in Caldwell</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-dark-blue mb-3">Office Relocations</h3>
+                <p className="text-gray-600">Complete office moves for Caldwell businesses of all sizes with professional handling and efficient service.</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-dark-blue mb-3">IT Equipment Moving</h3>
+                <p className="text-gray-600">Safe technology relocation with proper handling procedures and coordination with IT staff.</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-dark-blue mb-3">Warehouse Moving</h3>
+                <p className="text-gray-600">Large-scale relocations for warehouses and industrial facilities throughout Canyon County.</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="text-xl font-bold text-dark-blue mb-3">Retail Store Moves</h3>
+                <p className="text-gray-600">Retail relocations with minimal downtime to keep your business operational.</p>
+              </div>
+            </div>
+            <div className="text-center mt-8">
+              <Link href="/services" className="inline-flex items-center text-dark-blue font-semibold hover:text-light-blue transition-colors">
+                View All Services
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 md:py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-gunmetal mb-8 text-center">Why Caldwell Businesses Choose Us</h2>
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1">Local Knowledge</h3>
+                  <p className="text-gray-600">Familiar with Caldwell's business districts and building access throughout the area.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1">Flexible Scheduling</h3>
+                  <p className="text-gray-600">Weekend and after-hours moves to minimize business interruption.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1">Experienced Crews</h3>
+                  <p className="text-gray-600">Commercial moving specialists with professional training and equipment.</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold text-gray-900 mb-1">Transparent Pricing</h3>
+                  <p className="text-gray-600">Written quotes with no hidden fees or last-minute charges.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gradient-to-r from-dark-blue to-light-blue">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl font-bold text-white mb-4">Ready to Move Your Caldwell Business?</h2>
+            <p className="text-xl text-blue-100 mb-8">Get a free quote for your commercial move. We'll provide accurate pricing based on your specific needs.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
+                <Phone className="w-5 h-5" />
+                (208) 505-9352
+              </a>
+              <div className="flex items-center gap-2 text-blue-100">
+                <Clock className="w-5 h-5" />
+                <span>Available 7 Days a Week</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl font-bold text-gunmetal mb-6 text-center">We Also Serve</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+              <Link href="/cities-served/boise" className="text-dark-blue hover:text-light-blue font-semibold">Boise</Link>
+              <Link href="/cities-served/meridian" className="text-dark-blue hover:text-light-blue font-semibold">Meridian</Link>
+              <Link href="/cities-served/nampa" className="text-dark-blue hover:text-light-blue font-semibold">Nampa</Link>
+              <Link href="/cities-served/eagle" className="text-dark-blue hover:text-light-blue font-semibold">Eagle</Link>
+              <Link href="/cities-served/garden-city" className="text-dark-blue hover:text-light-blue font-semibold">Garden City</Link>
+              <Link href="/cities-served/kuna" className="text-dark-blue hover:text-light-blue font-semibold">Kuna</Link>
+            </div>
           </div>
         </div>
       </section>

@@ -3,10 +3,10 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 const services = [
-  { title: 'AC Repair & Service', description: 'When your AC stops cooling on a hot Boise summer day, you need help fast. We diagnose the problem quickly and fix it right the first time. Whether it\'s a refrigerant leak, compressor issue, or electrical problem—we\'ve seen it all and know how to get your system running again.', image: '/generated/ac-repair.webp', link: '/ac-repair', buttonText: 'Learn More' },
-  { title: 'Furnace Repair & Installation', description: 'Idaho winters don\'t mess around. When your furnace goes out, we respond fast to get your heat back on. From pilot light problems to complete system failures, our techs handle it all. And if you need a new furnace, we\'ll help you choose the right one for your home and budget.', image: '/generated/furnace-installation.webp', link: '/furnace-installation', buttonText: 'Learn More' },
-  { title: 'Preventive Maintenance', description: 'The best way to avoid emergency repairs? Regular maintenance. We inspect, clean, and tune your system so it runs efficiently and catches small problems before they become expensive disasters. Most breakdowns are preventable with proper care.', image: '/generated/hvac-maintenance.webp', link: '/hvac-maintenance', buttonText: 'Learn More' },
-  { title: '24/7 Emergency Service', description: 'No heat at 2 AM in January? AC died during a 100-degree heat wave? Some things can\'t wait until Monday. Our emergency technicians are available around the clock, every day of the year. We\'ll get to you fast and fix the problem so you can get back to comfortable.', image: '/generated/emergency-hvac.webp', link: '/emergency-hvac', buttonText: 'Learn More' },
+  { title: 'Office Moving & Relocation', description: 'Moving an office is different from moving a house. You need movers who understand business operations and can minimize downtime. We handle everything from cubicles to conference rooms, making sure your team can get back to work fast.', image: '/generated/office-moving.webp', link: '/services/office-moving', buttonText: 'Learn More' },
+  { title: 'Business Relocation', description: 'Retail stores, restaurants, medical offices—each type of business has unique moving needs. We work with you to create a plan that gets you operational in your new space as quickly as possible. After-hours and weekend moves available.', image: '/generated/business-relocation.webp', link: '/services/business-relocation', buttonText: 'Learn More' },
+  { title: 'Warehouse & Equipment Moving', description: 'Heavy machinery, inventory, racking systems—warehouse moves require specialized equipment and expertise. Our team has the tools and experience to relocate your operation safely and efficiently, whether you are across town or across the state.', image: '/generated/warehouse-moving.webp', link: '/services/warehouse-moving', buttonText: 'Learn More' },
+  { title: 'IT & Specialized Equipment', description: 'Servers, workstations, medical equipment, manufacturing machinery—some items need extra care. We work with your IT team to properly disconnect, transport, and reconnect sensitive equipment. Every move is planned to prevent damage and data loss.', image: '/generated/equipment-moving.webp', link: '/services/equipment-moving', buttonText: 'Learn More' },
 ]
 
 export function ServicesShowcase() {
@@ -14,8 +14,8 @@ export function ServicesShowcase() {
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Serving Boise and the Treasure Valley</h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">From Boise to Nampa, Meridian to Caldwell, we keep homes and businesses comfortable year-round with reliable HVAC service.</p>
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Commercial Moving Services</h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto">Professional office and business relocation throughout the Treasure Valley. We get your team up and running in your new space with minimal disruption.</p>
         </div>
 
         <div className="max-w-7xl mx-auto space-y-16">
@@ -23,8 +23,10 @@ export function ServicesShowcase() {
             <div key={service.title} className="flex flex-col lg:grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
               <h3 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] lg:hidden w-full">{service.title}</h3>
               <div className={`relative w-full ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                <div className="relative aspect-[4/3]">
-                  <Image src={service.image} alt={service.title} fill loading={index === 0 ? "eager" : "lazy"} className="object-contain" sizes="(max-width: 768px) 100vw, 50vw" quality={85} />
+                <div className="relative aspect-[4/3] bg-gray-200 rounded-lg">
+                  <div className="absolute inset-0 flex items-center justify-center text-gray-400 font-bold text-2xl">
+                    Commercial Moving
+                  </div>
                 </div>
               </div>
               <div className={index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
