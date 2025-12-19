@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Building2, Truck, Package, MonitorCog } from 'lucide-react'
+import { Building2, Truck, Package, ServerCog } from 'lucide-react'
 import { useQuoteForm } from '@/context/QuoteFormContext'
 import Link from 'next/link'
 
@@ -10,7 +10,7 @@ const services = [
   { icon: Building2, title: 'Office Moving', description: 'Complete office relocations with minimal disruption. We handle everything from cubicles to conference rooms.', href: '/services/office-moving' },
   { icon: Truck, title: 'Business Relocation', description: 'Full-service business moves. Retail, restaurants, medical offices—we move it all efficiently and safely.', href: '/services/business-relocation' },
   { icon: Package, title: 'Warehouse Moving', description: 'Heavy equipment, inventory, and warehouse relocations. We have the equipment and expertise for large-scale moves.', href: '/services/warehouse-moving' },
-  { icon: MonitorCog, title: 'Equipment & IT Moving', description: 'Specialized moving for sensitive equipment. IT infrastructure, medical devices, and manufacturing equipment handled with care.', href: '/services/equipment-moving' },
+  { icon: ServerCog, title: 'Equipment & IT Moving', description: 'Specialized moving for sensitive equipment. IT infrastructure, medical devices, and manufacturing equipment handled with care.', href: '/services/equipment-moving' },
 ]
 
 export function ServicesGrid() {
