@@ -62,6 +62,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: 'https://boise-commercial-movers.com',
+  },
 }
 
 export const viewport: Viewport = {
