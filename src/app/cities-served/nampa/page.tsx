@@ -170,6 +170,40 @@ export default function NampaPage() {
               <Link href="/cities-served/caldwell" className="text-dark-blue hover:text-light-blue font-semibold">Caldwell</Link>
               <Link href="/cities-served/eagle" className="text-dark-blue hover:text-light-blue font-semibold">Eagle</Link>
               <Link href="/cities-served/garden-city" className="text-dark-blue hover:text-light-blue font-semibold">Garden City</Link>
+            {/* Neighborhood Pages */}
+            <div className="mt-12">
+              <h3 className="text-2xl font-bold text-dark-blue mb-6">
+                Nampa Neighborhoods We Serve
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                
+                <Link
+                  href="/cities-served/nampa/downtown-nampa"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Downtown Nampa</span>
+                </Link>
+                <Link
+                  href="/cities-served/nampa/karcher"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Karcher</span>
+                </Link>
+                <Link
+                  href="/cities-served/nampa/lake-lowell"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Lake Lowell</span>
+                </Link>
+                <Link
+                  href="/cities-served/nampa/midway"
+                  className="bg-gray-100 hover:bg-gray-200 rounded-lg p-4 transition-colors"
+                >
+                  <span className="font-semibold text-dark-blue">Midway</span>
+                </Link>
+              </div>
+            </div>
+
               <Link href="/cities-served/kuna" className="text-dark-blue hover:text-light-blue font-semibold">Kuna</Link>
             </div>
           </div>
