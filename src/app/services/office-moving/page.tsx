@@ -4,7 +4,7 @@ import { ArrowRight, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Office Moving Services in Boise | Top Shelf Commercial Moving',
-  description: 'Complete office relocation services including cubicles, desks, conference rooms, and after-hours moves. Call (208) 505-9352.',
+  description: 'Complete office relocation services including cubicles, desks, conference rooms, and after-hours moves. Call (208) 768-3987.',
   alternates: { canonical: 'https://boise-commercial-movers.com/services/office-moving' },
 }
 
@@ -52,10 +52,10 @@ export default function OfficeMovingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Ready to Get Started?</h2>
           <a 
-            href="tel:2085059352" 
+            href="tel:2087683987" 
             className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors"
           >
-            <Phone className="w-5 h-5" />(208) 505-9352
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

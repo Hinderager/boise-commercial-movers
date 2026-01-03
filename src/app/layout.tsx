@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const montserrat = Montserrat({
@@ -24,10 +25,10 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-commercial-movers.com'),
   title: {
-    default: 'Commercial Movers Boise | Office Moving & Business Relocation Idaho',
-    template: '%s | Boise Commercial Movers',
+    default: 'Boise Commercial Movers | Office Relocation | Top Shelf',
+    template: '%s | Boise Commercial Moving',
   },
-  description: 'Professional commercial moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Office relocation, warehouse moving, equipment transport. Licensed & insured. Minimal downtime. Call (208) 505-9352.',
+  description: 'Professional commercial moving services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Office relocation, warehouse moving, equipment transport. Licensed & insured. Minimal downtime. Call (208) 768-3987.',
   keywords: [
     'commercial movers Boise',
     'office movers Boise Idaho',
@@ -82,6 +83,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Commercial Movers" siteUrl="https://boise-commercial-movers.com" />
         <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="preconnect" href="https://www.google.com" crossOrigin="anonymous" />
       </head>

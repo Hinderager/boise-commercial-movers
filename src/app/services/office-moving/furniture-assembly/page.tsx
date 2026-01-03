@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Office Furniture Assembly Boise | Professional Installation Services',
-  description: 'Professional office furniture assembly and installation services in Boise. We assemble desks, cubicles, conference tables, and more. Call (208) 505-9352.',
+  description: 'Professional office furniture assembly and installation services in Boise. We assemble desks, cubicles, conference tables, and more. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/office-moving/furniture-assembly',
   },
@@ -16,8 +16,8 @@ export default function FurnitureAssemblyPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Office Furniture Assembly</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional assembly of office furniture and workstation systems.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -91,7 +91,7 @@ export default function FurnitureAssemblyPage() {
 
             <h2>Ready to Get Your Furniture Assembled?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               tell us what you've got. How many pieces, what kind of furniture, and when you need it done.
               We'll give you a quote and schedule a crew.
             </p>
@@ -103,8 +103,8 @@ export default function FurnitureAssemblyPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get a Furniture Assembly Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Professional office furniture assembly by experienced crews.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

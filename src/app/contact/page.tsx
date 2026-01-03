@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us - Commercial Movers Boise | Get Free Quote',
-  description: 'Contact our commercial moving team in Boise for a free quote. Call (208) 505-9352 or fill out our form. Fast response, professional service.',
+  description: 'Contact our commercial moving team in Boise for a free quote. Call (208) 768-3987 or fill out our form. Fast response, professional service.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/contact',
   },
@@ -16,8 +16,8 @@ export default function ContactPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Contact Us</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Get your free commercial moving quote today.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-dark-blue mb-1">Phone</h3>
-                    <a href="tel:2085059352" className="text-lg text-gray-700 hover:text-dark-blue">(208) 505-9352</a>
+                    <a href="tel:2087683987" className="text-lg text-gray-700 hover:text-dark-blue">(208) 768-3987</a>
                     <p className="text-sm text-gray-600 mt-1">Call for immediate assistance</p>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-bold text-dark-blue mb-1">Email</h3>
-                    <a href="mailto:info@boise-commercial-movers.com" className="text-lg text-gray-700 hover:text-dark-blue">info@boise-commercial-movers.com</a>
+                    <a href="mailto:info@topshelfpros.com" className="text-lg text-gray-700 hover:text-dark-blue">info@topshelfpros.com</a>
                     <p className="text-sm text-gray-600 mt-1">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ export default function ContactPage() {
                   </button>
 
                   <p className="text-sm text-gray-600 text-center">
-                    Or call us directly at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a>
+                    Or call us directly at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a>
                   </p>
                 </form>
               </div>
@@ -210,8 +210,8 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
           <p className="text-xl text-gray-300 mb-8">Call now for the fastest response.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

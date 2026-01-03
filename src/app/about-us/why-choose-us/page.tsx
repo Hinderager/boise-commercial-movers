@@ -3,7 +3,7 @@ import { Phone, Clock, Shield, Users, CheckCircle, Truck } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Why Choose Our Commercial Movers Boise | What Makes Us Different',
-  description: 'Why Boise businesses choose us for commercial moving. Professional crews, licensed and insured, minimal downtime. See what sets us apart. Call (208) 505-9352.',
+  description: 'Why Boise businesses choose us for commercial moving. Professional crews, licensed and insured, minimal downtime. See what sets us apart. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/about-us/why-choose-us',
   },
@@ -16,8 +16,8 @@ export default function WhyChooseUsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Why Choose Us</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">What makes us different from other commercial moving companies in Boise.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function WhyChooseUsPage() {
 
             <h2>Ready to Experience the Difference?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about your move. We'll ask good questions, give you honest answers, and provide
               a quote that reflects the professional service we deliver.
             </p>
@@ -153,8 +153,8 @@ export default function WhyChooseUsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready For a Professional Move?</h2>
           <p className="text-xl text-gray-300 mb-8">Get your free quote today.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

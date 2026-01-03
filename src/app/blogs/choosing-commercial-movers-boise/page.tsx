@@ -307,10 +307,10 @@ export default function BlogPost() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:2085059352"
+                href="tel:2087683987"
                 className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors"
               >
-                Call (208) 505-9352
+                Call (208) 768-3987
               </a>
               <span className="text-blue-100 self-center">Serving Businesses Across the Treasure Valley</span>
             </div>

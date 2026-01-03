@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Commercial Moving FAQ Boise | Common Questions Answered',
-  description: 'Answers to common questions about commercial moving in Boise. Pricing, timelines, what to expect, and more. Call (208) 505-9352.',
+  description: 'Answers to common questions about commercial moving in Boise. Pricing, timelines, what to expect, and more. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/resources/faq',
   },
@@ -91,8 +91,8 @@ export default function FAQPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Frequently Asked Questions</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Common questions about commercial moving in Boise.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -115,8 +115,8 @@ export default function FAQPage() {
               If you've got specific questions about your situation, just call us. We'll give you
               straight answers.
             </p>
-            <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-dark-blue text-white px-6 py-3 rounded-lg font-bold hover:bg-dark-blue/90 transition-colors">
-              <Phone className="w-5 h-5" />(208) 505-9352 - Ask Your Question
+            <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-dark-blue text-white px-6 py-3 rounded-lg font-bold hover:bg-dark-blue/90 transition-colors">
+              <Phone className="w-5 h-5" />(208) 768-3987 - Ask Your Question
             </a>
           </div>
         </div>
@@ -126,8 +126,8 @@ export default function FAQPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
           <p className="text-xl text-gray-300 mb-8">Get your free commercial moving quote today.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

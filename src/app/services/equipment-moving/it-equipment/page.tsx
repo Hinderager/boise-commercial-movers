@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'IT Equipment Moving Boise | Computer & Server Relocation',
-  description: 'Professional IT equipment moving in Boise. Move servers, computers, networking gear, and data centers safely. Licensed and insured. Call (208) 505-9352.',
+  description: 'Professional IT equipment moving in Boise. Move servers, computers, networking gear, and data centers safely. Licensed and insured. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/equipment-moving/it-equipment',
   },
@@ -16,8 +16,8 @@ export default function ITEquipmentPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">IT Equipment Moving</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Move servers, computers, and networking equipment safely with minimal IT downtime.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -113,7 +113,7 @@ export default function ITEquipmentPage() {
 
             <h2>Ready to Move Your IT Equipment?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about your IT move. We'll coordinate with your IT team, plan the shutdown and
               startup sequence, and give you a detailed quote for moving everything safely.
             </p>
@@ -125,8 +125,8 @@ export default function ITEquipmentPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your IT Moving Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Professional IT equipment relocation with careful handling and organization.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

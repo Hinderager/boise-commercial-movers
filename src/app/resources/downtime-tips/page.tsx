@@ -3,7 +3,7 @@ import { Phone, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Minimize Business Downtime During Move Boise | Moving Tips',
-  description: 'Proven strategies to minimize downtime during your commercial move in Boise. Keep your business running during relocation. Call (208) 505-9352.',
+  description: 'Proven strategies to minimize downtime during your commercial move in Boise. Keep your business running during relocation. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/resources/downtime-tips',
   },
@@ -16,8 +16,8 @@ export default function DowntimeTipsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Minimize Business Downtime</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Proven strategies to keep your business running during a commercial move.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -151,7 +151,7 @@ export default function DowntimeTipsPage() {
             <h2>Let's Minimize Your Downtime</h2>
             <p>
               We specialize in fast, organized commercial moves that get businesses back open quickly.
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               we'll create a move schedule that minimizes your downtime and gets you operational ASAP.
             </p>
           </div>
@@ -162,8 +162,8 @@ export default function DowntimeTipsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Move Fast, Stay Open</h2>
           <p className="text-xl text-gray-300 mb-8">Get a downtime-minimizing move plan for your business.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

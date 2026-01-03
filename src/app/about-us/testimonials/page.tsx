@@ -3,7 +3,7 @@ import { Phone, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Customer Reviews & Testimonials | Boise Commercial Moving',
-  description: 'Read what Boise businesses say about our commercial moving services. Real reviews from offices, warehouses, and businesses we\'ve moved. Call (208) 505-9352.',
+  description: 'Read what Boise businesses say about our commercial moving services. Real reviews from offices, warehouses, and businesses we\'ve moved. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/about-us/testimonials',
   },
@@ -55,8 +55,8 @@ export default function TestimonialsPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">What Our Customers Say</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Real reviews from Boise area businesses we've moved.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -122,8 +122,8 @@ export default function TestimonialsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Join Our Happy Customers?</h2>
           <p className="text-xl text-gray-300 mb-8">Get a quote for your commercial move today.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

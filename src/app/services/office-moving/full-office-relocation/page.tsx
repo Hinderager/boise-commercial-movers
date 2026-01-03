@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Full Office Relocation Services Boise | Complete Office Moves',
-  description: 'Complete turnkey office relocation services in Boise with minimal business disruption. Professional planning and execution. Call (208) 505-9352.',
+  description: 'Complete turnkey office relocation services in Boise with minimal business disruption. Professional planning and execution. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/office-moving/full-office-relocation',
   },
@@ -16,8 +16,8 @@ export default function FullOfficeRelocationPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Full Office Relocation</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Complete turnkey office moving with minimal disruption to your business.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function FullOfficeRelocationPage() {
 
             <h2>Ready to Relocate Your Office?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about your office move. We'll schedule a walkthrough, discuss your timeline, and
               give you a detailed quote for the full relocation.
             </p>
@@ -91,8 +91,8 @@ export default function FullOfficeRelocationPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your Office Relocation Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Complete turnkey office moving from start to finish.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

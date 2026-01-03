@@ -124,8 +124,8 @@ export default function TermsPage() {
               If you have questions about these Terms of Service, please contact us:
             </p>
             <ul>
-              <li><strong>Phone:</strong> (208) 505-9352</li>
-              <li><strong>Email:</strong> info@boise-commercial-movers.com</li>
+              <li><strong>Phone:</strong> (208) 768-3987</li>
+              <li><strong>Email:</strong> info@topshelfpros.com</li>
             </ul>
           </div>
 

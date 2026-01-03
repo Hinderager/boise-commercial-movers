@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Complete Business Moves Boise | Full-Service Commercial Relocation',
-  description: 'Complete business moving services in Boise. We handle everything from packing to setup at your new location. Minimize downtime. Call (208) 505-9352.',
+  description: 'Complete business moving services in Boise. We handle everything from packing to setup at your new location. Minimize downtime. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/business-relocation/complete-business-moves',
   },
@@ -16,8 +16,8 @@ export default function CompleteBusinessMovesPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Complete Business Moves</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Full-service business relocation from start to finish—we handle everything.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -95,7 +95,7 @@ export default function CompleteBusinessMovesPage() {
 
             <h2>Ready to Move Your Business?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               we'll schedule a walkthrough. We'll talk about your timeline, what needs to move, and how
               we can make this as painless as possible. Then you'll get a clear quote for the complete move.
             </p>
@@ -107,8 +107,8 @@ export default function CompleteBusinessMovesPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your Complete Move Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Full-service business relocation with zero hassle.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

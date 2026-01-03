@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Inventory Moving Services Boise | Warehouse Inventory Relocation',
-  description: 'Professional inventory moving in Boise. We handle palletized loads, boxed goods, and organized inventory transfers. Fast and accurate. Call (208) 505-9352.',
+  description: 'Professional inventory moving in Boise. We handle palletized loads, boxed goods, and organized inventory transfers. Fast and accurate. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/warehouse-moving/inventory-moving',
   },
@@ -16,8 +16,8 @@ export default function InventoryMovingPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Inventory Moving</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Move warehouse inventory efficiently with accurate tracking and careful handling.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function InventoryMovingPage() {
 
             <h2>Ready to Move Your Inventory?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about your inventory. We'll discuss quantities, how it's currently stored,
               and what you need at the new location. Then we'll give you a detailed quote for the move.
             </p>
@@ -115,8 +115,8 @@ export default function InventoryMovingPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your Inventory Moving Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Organized, tracked, and carefully handled inventory relocation.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

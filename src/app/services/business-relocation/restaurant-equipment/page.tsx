@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Restaurant Equipment Moving Boise | Commercial Kitchen Relocation',
-  description: 'Professional restaurant and commercial kitchen equipment moving in Boise. We handle ovens, fryers, coolers, and all kitchen gear. Call (208) 505-9352.',
+  description: 'Professional restaurant and commercial kitchen equipment moving in Boise. We handle ovens, fryers, coolers, and all kitchen gear. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/business-relocation/restaurant-equipment',
   },
@@ -16,8 +16,8 @@ export default function RestaurantEquipmentPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Restaurant Equipment Moving</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Move your entire restaurant—kitchen, dining room, bar—fast and professionally.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -103,7 +103,7 @@ export default function RestaurantEquipmentPage() {
 
             <h2>Ready to Move Your Restaurant?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               we'll schedule a walkthrough. We'll check out your kitchen, discuss your timeline, and give
               you a clear quote for moving everything. Let's get you back in business as fast as possible.
             </p>
@@ -115,8 +115,8 @@ export default function RestaurantEquipmentPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your Restaurant Moving Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Fast, professional restaurant relocation with minimal closure time.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

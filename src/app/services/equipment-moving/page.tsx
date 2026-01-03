@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Equipment Moving Services Boise | IT, Medical, Industrial Equipment',
-  description: 'Specialized equipment moving services for IT equipment, medical devices, manufacturing machinery, and more in Boise. Expert commercial movers. Call (208) 505-9352.',
+  description: 'Specialized equipment moving services for IT equipment, medical devices, manufacturing machinery, and more in Boise. Expert commercial movers. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/equipment-moving',
   },
@@ -16,8 +16,8 @@ export default function EquipmentMovingPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Equipment Moving Services</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Specialized moving for IT equipment, medical devices, and industrial machinery.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -97,7 +97,7 @@ export default function EquipmentMovingPage() {
 
             <h2>Ready to Move Your Equipment?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about what you need moved. We'll ask about the equipment, the locations, and any special
               requirements. Then we'll put together a plan and a quote.
             </p>
@@ -109,8 +109,8 @@ export default function EquipmentMovingPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get an Equipment Moving Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Specialized equipment moving with the care and expertise you need.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

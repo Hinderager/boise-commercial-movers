@@ -3,7 +3,7 @@ import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Manufacturing Equipment Moving Boise | Industrial Machinery Relocation',
-  description: 'Professional manufacturing equipment and machinery moving in Boise. CNC machines, assembly equipment, and industrial tools. Licensed and insured. Call (208) 505-9352.',
+  description: 'Professional manufacturing equipment and machinery moving in Boise. CNC machines, assembly equipment, and industrial tools. Licensed and insured. Call (208) 768-3987.',
   alternates: {
     canonical: 'https://boise-commercial-movers.com/services/equipment-moving/manufacturing-equipment',
   },
@@ -16,8 +16,8 @@ export default function ManufacturingEquipmentPage() {
         <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Manufacturing Equipment Moving</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Move manufacturing machinery and production equipment safely and efficiently.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -118,7 +118,7 @@ export default function ManufacturingEquipmentPage() {
 
             <h2>Ready to Move Your Manufacturing Equipment?</h2>
             <p>
-              Call us at <a href="tel:2085059352" className="text-dark-blue font-semibold">(208) 505-9352</a> and
+              Call us at <a href="tel:2087683987" className="text-dark-blue font-semibold">(208) 768-3987</a> and
               let's talk about your equipment move. We'll schedule a site visit, assess the machinery,
               measure routes, and give you a detailed plan and quote for the relocation.
             </p>
@@ -130,8 +130,8 @@ export default function ManufacturingEquipmentPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Get Your Manufacturing Moving Quote</h2>
           <p className="text-xl text-gray-300 mb-8">Professional industrial equipment relocation with specialized rigging.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

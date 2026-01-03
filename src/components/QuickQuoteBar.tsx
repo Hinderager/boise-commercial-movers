@@ -28,14 +28,14 @@ export function QuickQuoteBar() {
       `}</style>
 
       <div className="hidden md:flex justify-center gap-4 mb-6 px-4">
-        <a href="tel:2085059352" className="px-8 py-3 rounded-lg font-bold text-lg uppercase bg-[#FFC845] text-[#10477d] hover:bg-[#e5b13d] transition-all border-4 border-[#FFC845]">
+        <a href="tel:2087683987" className="px-8 py-3 rounded-lg font-bold text-lg uppercase bg-[#FFC845] text-[#10477d] hover:bg-[#e5b13d] transition-all border-4 border-[#FFC845]">
           Free Moving Estimate
         </a>
       </div>
 
       <div className="md:hidden px-4">
         <div className="flex gap-1.5 mb-0">
-          <a href="tel:2085059352" className="flex-1 py-3 font-bold text-sm uppercase transition-all rounded-lg bg-[#FFC845] text-[#10477d] hover:bg-[#e5b13d] text-center">
+          <a href="tel:2087683987" className="flex-1 py-3 font-bold text-sm uppercase transition-all rounded-lg bg-[#FFC845] text-[#10477d] hover:bg-[#e5b13d] text-center">
             Free Moving Estimate
           </a>
         </div>

@@ -1,5 +1,6 @@
 'use client'
 
+import { useState, useEffect, useRef } from 'react'
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
@@ -20,11 +21,11 @@ export function MapSection() {
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Phone className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Phone</h4><a href="tel:2085059352" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">(208) 505-9352</a></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Phone</h4><a href="tel:2087683987" className="text-[#0b7fb6] hover:text-[#10477d] font-semibold text-lg transition-colors">(208) 768-3987</a></div>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Mail className="w-6 h-6 text-white" /></div>
-              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4>                <a href="mailto:info@boise-commercial-movers.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@boise-commercial-movers.com</a></div>
+              <div><h4 className="font-semibold text-gray-900 mb-1">Email</h4>                <a href="mailto:info@topshelfpros.com" className="text-[#0b7fb6] hover:text-[#10477d] transition-colors">info@topshelfpros.com</a></div>
             </div>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-gradient-to-br from-[#0b7fb6] to-[#10477d] rounded-full flex items-center justify-center flex-shrink-0"><Clock className="w-6 h-6 text-white" /></div>
@@ -41,7 +42,7 @@ export function MapSection() {
         </div>
 
         <div className="flex flex-row gap-4 justify-center mt-12">
-          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a></Button>
+          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2087683987"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 768-3987</span></a></Button>
         </div>
       </div>
     </section>

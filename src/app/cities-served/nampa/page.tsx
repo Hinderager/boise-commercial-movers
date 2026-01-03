@@ -22,8 +22,8 @@ export default function NampaPage() {
             <p className="text-xl md:text-2xl text-blue-100 mb-8">
               Professional office moving services throughout Nampa's business districts
             </p>
-            <a href="tel:2085059352" className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
-              Call (208) 505-9352 for Free Quote
+            <a href="tel:2087683987" className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
+              Call (208) 768-3987 for Free Quote
             </a>
           </div>
         </div>
@@ -147,9 +147,9 @@ export default function NampaPage() {
             <h2 className="text-3xl font-bold text-white mb-4">Ready to Move Your Nampa Business?</h2>
             <p className="text-xl text-blue-100 mb-8">Get a free quote for your commercial move in Nampa. We'll provide accurate pricing after walking through your space.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
+              <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-lg transition-colors">
                 <Phone className="w-5 h-5" />
-                (208) 505-9352
+                (208) 768-3987
               </a>
               <div className="flex items-center gap-2 text-blue-100">
                 <Clock className="w-5 h-5" />
